@@ -1,9 +1,9 @@
 {
   "css/main.css": {
-    "file": "css/bundle.517c67c82d.css",
+    "file": "css/bundle.ab5b811808.css",
     "src": "css/main.css",
     "isEntry": true,
-    "gzip_kb": 7.43
+    "gzip_kb": 6.74
   },
   "js/main.js": {
     "file": "js/bundle.9f569f07ab.js",

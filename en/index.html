@@ -1446,44 +1446,11 @@
       }
 
       @media (max-width: 1024px) {
-        .header-nav, .header-phone, .brand-sub, .studio-dock, .cursor-follower { display: none !important; }
+        .header-nav, .header-phone, .brand-sub, .studio-dock { display: none; }
         .hero-c1__grid, .manifesto-grid, .chapter-head, .spa-bento,
-        .banya-split, .dining-layout, .footer-grid,
+        .banya-split, .dining-layout, .concierge-menu, .footer-grid,
         .hero-c2__top {
           grid-template-columns: 1fr;
-        }
-        .concierge-menu {
-          display: flex;
-          flex-direction: column;
-          overflow-y: auto;
-          -webkit-overflow-scrolling: touch;
-        }
-        .concierge-menu__right {
-          display: none;
-        }
-        .concierge-menu__left {
-          padding: 84px 20px 88px;
-          border-right: none;
-          justify-content: flex-start;
-          gap: 24px;
-          min-height: 100%;
-        }
-        .concierge-menu__list {
-          grid-template-columns: 1fr;
-          gap: 4px;
-        }
-        .concierge-menu__item {
-          font-size: 1.55rem;
-          padding: 10px 0;
-        }
-        .concierge-menu__close {
-          position: fixed;
-          top: 12px;
-          right: 12px;
-          background: rgba(7, 26, 47, 0.94);
-          backdrop-filter: blur(12px);
-          padding: 8px 14px;
-          z-index: 820;
         }
         .room-showcase-grid, .spa-schedule-box, .facts-strip {
           grid-template-columns: 1fr 1fr;
@@ -1530,221 +1497,15 @@
       }
 
       @media (max-width: 640px) {
-        .section-light, .section-white, .section-stone, .section-navy {
-          padding: 56px 16px;
-        }
-        .page-hero {
-          min-height: 52svh !important;
-          padding: 96px 16px 36px !important;
-        }
-        h1, .t-h1 {
-          font-size: clamp(2.1rem, 8.2vw, 2.75rem);
-          line-height: 1.06;
-        }
-        h2, .t-h2 {
-          font-size: clamp(1.72rem, 6.8vw, 2.2rem);
-          line-height: 1.12;
-        }
-        h3, .t-h3 {
-          font-size: clamp(1.35rem, 5.2vw, 1.65rem);
-          line-height: 1.18;
-        }
-        .chapter-head {
-          gap: 10px;
-          margin-bottom: 28px;
-          padding-bottom: 16px;
-        }
-        .hero-c3__col,
-        .hero-c3__col:hover {
-          min-height: 44svh;
-          padding: 80px 18px 24px;
-        }
-        .hero-c3__col + .hero-c3__col {
-          padding-top: 28px;
-          min-height: 42svh;
-        }
-        .hero-c3__col h2 {
-          font-size: 1.95rem !important;
-          line-height: 1.08 !important;
-          margin-bottom: 8px !important;
-        }
-        .hero-c3__col p {
-          font-size: 0.875rem !important;
-          line-height: 1.48 !important;
-          margin-bottom: 16px !important;
-        }
-        .hero-c3__col .btn-primary {
-          width: 100%;
-          padding: 13px 16px;
-        }
-        .hero-c3__seal {
-          padding: 18px 18px 26px;
-        }
-        .hero-c3__seal div:last-child {
-          font-size: 1.45rem !important;
-        }
-        .manifesto-grid {
-          gap: 32px;
-        }
-        .manifesto-quote {
-          font-size: 1.45rem;
-          padding-left: 16px;
-          margin-bottom: 18px;
-        }
-        .manifesto-img-main {
-          width: 90%;
-          height: 280px;
-        }
-        .manifesto-img-float {
-          width: 64%;
-          height: 165px;
-          bottom: -16px;
-          border-width: 4px;
-        }
-        .facts-strip {
-          grid-template-columns: 1fr 1fr;
-          margin-top: 40px;
-        }
-        .fact-cell {
-          padding: 20px 14px;
-          border-bottom: 1px solid var(--c-sand);
-        }
-        .fact-cell:nth-child(2n) {
-          border-right: none;
-        }
-        .fact-number {
-          font-size: 2.2rem;
-        }
-        .hotel-tabs {
-          width: 100%;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-        }
-        .hotel-tab {
-          padding: 11px 6px;
-          font-size: 0.66rem;
-          text-align: center;
-          letter-spacing: 0.08em;
-        }
-        .room-showcase-grid, .spa-schedule-box, .booking-bar {
+        .room-showcase-grid, .spa-schedule-box, .facts-strip, .booking-bar, .banya-visuals {
           grid-template-columns: 1fr;
-        }
-        .room-card__media {
-          height: 230px;
-        }
-        .room-card__body {
-          padding: 20px 18px;
-        }
-        .room-card__footer {
-          flex-wrap: wrap;
-          gap: 12px;
-        }
-        .spa-bento {
-          gap: 16px;
-          margin-bottom: 24px;
-        }
-        .spa-bento__main {
-          height: 280px;
-        }
-        .spa-bento__side {
-          gap: 16px;
-        }
-        .spa-bento__side-item {
-          height: 200px;
-        }
-        .spa-caption {
-          padding: 16px;
-        }
-        .spa-schedule-cell {
-          padding: 18px 16px;
-          border-right: none;
-          border-bottom: 1px solid rgba(191, 217, 238, 0.14);
-        }
-        .banya-split, .dining-layout {
-          gap: 28px;
-        }
-        .banya-visuals {
-          grid-template-columns: 1fr 1fr;
-          gap: 10px;
-        }
-        .banya-visuals img {
-          height: 200px;
-        }
-        .banya-calc, .menu-board {
-          padding: 20px 16px;
-        }
-        .menu-item-row {
-          flex-direction: column;
-          gap: 4px;
-        }
-        .rail-track {
-          gap: 16px;
-          padding: 0 16px;
-        }
-        .rail-card {
-          flex: 0 0 85vw;
-        }
-        .rail-card__img {
-          height: 220px;
-        }
-        .rail-card__body {
-          padding: 20px 18px;
         }
         .booking-bar__cta {
           grid-column: span 1;
         }
         .g-span-7, .g-span-5, .g-span-4 {
           grid-column: span 12;
-          height: 230px;
-        }
-        #tur-3d {
-          padding: 24px 18px !important;
-        }
-        #tourFacade {
-          height: 420px !important;
-        }
-        .booking-drawer {
-          padding: 24px 18px 84px;
-          width: 100vw;
-        }
-        .site-footer {
-          padding: 56px 16px 88px;
-        }
-        .footer-grid {
-          gap: 32px;
-          padding-bottom: 40px;
-        }
-        [style*="padding: 40px"],
-        [style*="padding: 44px"],
-        [style*="padding: 48px"],
-        [style*="padding: 36px"] {
-          padding: 22px 18px !important;
-        }
-        [style*="minmax(340px"],
-        [style*="minmax(320px"],
-        [style*="minmax(300px"] {
-          grid-template-columns: 1fr !important;
-        }
-        form [style*="grid-template-columns: 1fr 1fr"] {
-          grid-template-columns: 1fr !important;
-          gap: 12px !important;
-        }
-        .amenity-grid {
-          grid-template-columns: 1fr !important;
-        }
-        .filter-pills {
-          flex-wrap: nowrap !important;
-          overflow-x: auto;
-          padding-bottom: 8px;
-          -webkit-overflow-scrolling: touch;
-          scrollbar-width: none;
-        }
-        .filter-pills::-webkit-scrollbar {
-          display: none;
-        }
-        .filter-pill {
-          white-space: nowrap;
-          flex-shrink: 0;
+          height: 250px;
         }
         .brand-wordmark { font-size: 1.05rem; letter-spacing: 0.08em; }
         .brand-lockup { gap: 8px; }
