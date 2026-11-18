@@ -1,0 +1,2901 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Озерний комплекс «Лагодів» — Готелі, Басейн, SPA та Ресторан</title>
+  <meta name="description" content="Заміський відпочинок на березі озера у Львівській області (с. Лагодів, вул. Довга, 5): готелі H2O та «Колиба», котедж 200 м² із пірсом, підігріті басейни, SPA, баня з чаном, риболовля та ресторан." />
+  <link rel="canonical" href="https://lagodivrest.com.ua/" />
+  <link rel="alternate" hreflang="uk" href="https://lagodivrest.com.ua/" />
+  <link rel="alternate" hreflang="en" href="https://lagodivrest.com.ua/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://lagodivrest.com.ua/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Озерний комплекс «Лагодів» — Готелі H2O і «Колиба», Басейни, SPA та Ресторан" />
+  <meta property="og:description" content="Два готелі та котедж 200 м² на березі озера у Львівській області: басейни з підігрівом, SPA, баня з чаном, риболовля, квадроцикли та банкетна зала до 150 гостей." />
+  <meta property="og:image" content="https://lagodivrest.com.ua/media_inbox/extra/landscape-01.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="/lagodiv/media_inbox/brand/favicon.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LodgingBusiness",
+        "name": "Озерний комплекс «Лагодів» (Готель H2O та Готель «Колиба»)",
+        "url": "https://lagodivrest.com.ua/",
+        "image": "https://lagodivrest.com.ua/media_inbox/extra/landscape-01.png",
+        "telephone": "+380963372888",
+        "priceRange": "2000 - 14000 UAH",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "вул. Довга, 5",
+          "addressLocality": "с. Лагодів, Золочівський район",
+          "addressRegion": "Львівська область",
+          "addressCountry": "UA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 50.1034527,
+          "longitude": 25.1048928
+        },
+        "checkinTime": "14:00",
+        "checkoutTime": "12:00"
+      },
+      {
+        "@type": "Restaurant",
+        "name": "Ресторан «Колиба» в озерному комплексі «Лагодів»",
+        "telephone": "+380960307888",
+        "servesCuisine": ["Ukrainian", "European", "Mangal Grill"],
+        "hasMenu": "https://restoran-koliba.choiceqr.com"
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    @layer reset, tokens, base, components, utilities, pages;
+
+    @layer reset {
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: auto;
+        -webkit-text-size-adjust: 100%;
+      }
+      img, picture, video, canvas, svg {
+        display: block;
+        max-width: 100%;
+      }
+      button, input, select, textarea {
+        font: inherit;
+        color: inherit;
+        background: none;
+        border: none;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      ul, ol {
+        list-style: none;
+      }
+    }
+
+    @layer tokens {
+      :root {
+        --c-navy-950: #071A2F;
+        --c-navy-900: #0B2A4A;
+        --c-navy-700: #14487D;
+        --c-blue-500: #2F6FB0;
+        --c-blue-200: #BFD9EE;
+        --c-blue-100: #DCEBF7;
+        --c-blue-50: #EEF5FB;
+
+        --c-white: #FFFFFF;
+        --c-mist: #F5F7F8;
+        --c-stone: #E7E3DA;
+        --c-sand: #CFC6B4;
+        --c-moss: #5B6B58;
+
+        --c-ink: #14202B;
+        --c-ink-soft: #4A5968;
+
+        --c-success: #2E7D5B;
+        --c-error: #B3372F;
+        --c-focus: #2F6FB0;
+
+        --font-display: 'Cormorant Garamond', Georgia, serif;
+        --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+        --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+        --ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+        --container-max: 1440px;
+        --gutter: clamp(1.25rem, 4vw, 3.5rem);
+      }
+    }
+
+    @layer base {
+      body {
+        font-family: var(--font-sans);
+        font-size: 1.0625rem;
+        line-height: 1.65;
+        color: var(--c-ink);
+        background-color: var(--c-mist);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+
+      h1, .t-h1 {
+        font-family: var(--font-display);
+        font-size: clamp(2.85rem, 6.2vw + 0.75rem, 6.85rem);
+        font-weight: 300;
+        line-height: 1.02;
+        letter-spacing: -0.02em;
+      }
+
+      h2, .t-h2 {
+        font-family: var(--font-display);
+        font-size: clamp(2.15rem, 3.6vw + 0.85rem, 4.35rem);
+        font-weight: 300;
+        line-height: 1.08;
+        letter-spacing: -0.015em;
+      }
+
+      h3, .t-h3 {
+        font-family: var(--font-display);
+        font-size: clamp(1.55rem, 2vw + 0.5rem, 2.45rem);
+        font-weight: 400;
+        line-height: 1.16;
+      }
+
+      .t-eyebrow {
+        font-family: var(--font-sans);
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        line-height: 1.4;
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .t-eyebrow::before {
+        content: '';
+        width: 28px;
+        height: 1px;
+        background: currentColor;
+        display: inline-block;
+      }
+
+      .t-num {
+        font-variant-numeric: tabular-nums;
+      }
+    }
+
+    @layer components {
+      /* Preloader Curtain */
+      .preloader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px var(--gutter);
+        pointer-events: none;
+        transition: clip-path 1.1s var(--ease-out-expo), opacity 0.6s ease;
+        clip-path: inset(0 0 0 0);
+      }
+      .preloader.is-done {
+        clip-path: inset(0 0 100% 0);
+      }
+      .preloader__top {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--c-blue-200);
+      }
+      .preloader__center {
+        text-align: center;
+      }
+      .preloader__title {
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 5rem);
+        font-weight: 300;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .preloader__sub {
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: 1.5rem;
+        color: var(--c-blue-200);
+        margin-top: 8px;
+      }
+      .preloader__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-top: 1px solid rgba(191, 217, 238, 0.16);
+        padding-top: 20px;
+      }
+      .preloader__counter {
+        font-family: var(--font-display);
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1;
+      }
+
+      /* Custom Cursor (Desktop only) */
+      .cursor-follower {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--c-white);
+        mix-blend-mode: difference;
+        pointer-events: none;
+        z-index: 9000;
+        transform: translate(-50%, -50%);
+        transition: width 0.35s var(--ease-out-expo), height 0.35s var(--ease-out-expo), background 0.35s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.625rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--c-navy-950);
+        overflow: hidden;
+      }
+      .cursor-follower.is-expanded {
+        width: 92px;
+        height: 92px;
+        background: rgba(255, 255, 255, 0.94);
+        mix-blend-mode: normal;
+        box-shadow: 0 12px 32px rgba(7, 26, 47, 0.25);
+      }
+      @media (hover: none), (pointer: coarse) {
+        .cursor-follower { display: none !important; }
+      }
+
+      /* Top Architectural Header */
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 500;
+        transition: all 0.45s var(--ease-out-expo);
+      }
+      .site-header--v1 {
+        padding: 22px var(--gutter);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        background: linear-gradient(180deg, rgba(7, 26, 47, 0.72) 0%, rgba(7, 26, 47, 0) 100%);
+        color: var(--c-white);
+      }
+      .site-header--v1.is-scrolled {
+        padding: 14px var(--gutter);
+        background: rgba(7, 26, 47, 0.94);
+        backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(191, 217, 238, 0.16);
+      }
+      .site-header--v2 {
+        top: 18px;
+        left: var(--gutter);
+        right: var(--gutter);
+        padding: 14px 28px;
+        background: rgba(7, 26, 47, 0.88);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(191, 217, 238, 0.22);
+        border-radius: 2px;
+        color: var(--c-white);
+      }
+      .site-header--light:not(.is-scrolled) {
+        color: var(--c-navy-950);
+        background: rgba(245, 247, 248, 0.92);
+        border-bottom: 1px solid var(--c-stone);
+      }
+      .site-header__inner {
+        max-width: var(--container-max);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+      .brand-lockup {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .brand-menu-trigger {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        cursor: pointer;
+        padding: 8px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+      }
+      .site-header--light:not(.is-scrolled) .brand-menu-trigger {
+        border-color: var(--c-sand);
+      }
+      .brand-menu-trigger:hover {
+        background: rgba(255, 255, 255, 0.12);
+      }
+      .brand-menu-lines {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 16px;
+      }
+      .brand-menu-lines span {
+        height: 1px;
+        width: 100%;
+        background: currentColor;
+        display: block;
+      }
+      .brand-wordmark {
+        font-family: var(--font-display);
+        font-size: 1.65rem;
+        font-weight: 400;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+      .brand-sub {
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        opacity: 0.72;
+        border-left: 1px solid currentColor;
+        padding-left: 14px;
+      }
+      .header-nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        white-space: nowrap;
+      }
+      .header-nav a {
+        font-size: 0.72rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.11em;
+        position: relative;
+        padding: 6px 0;
+        opacity: 0.9;
+        transition: opacity 0.25s ease;
+        white-space: nowrap;
+      }
+      .header-nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: currentColor;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.35s var(--ease-out-expo);
+      }
+      .header-nav a:hover {
+        opacity: 1;
+      }
+      .header-nav a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+      .header-actions {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        white-space: nowrap;
+      }
+      .header-lang {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        opacity: 0.85;
+        white-space: nowrap;
+      }
+      .header-phone {
+        font-size: 0.78rem;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: var(--c-blue-500);
+        color: var(--c-white);
+        padding: 12px 24px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        border-radius: 2px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.35s ease, transform 0.35s var(--ease-out-expo);
+      }
+      .btn-primary:hover {
+        background: var(--c-navy-700);
+        transform: translateY(-1px);
+      }
+      .btn-outline {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 1px solid currentColor;
+        padding: 12px 24px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all 0.35s ease;
+      }
+      .btn-outline:hover {
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        border-color: var(--c-navy-950);
+      }
+
+      /* Fullscreen Concierge Menu Overlay */
+      .concierge-menu {
+        position: fixed;
+        inset: 0;
+        z-index: 800;
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        display: grid;
+        grid-template-columns: 7fr 5fr;
+        clip-path: inset(0 0 100% 0);
+        transition: clip-path 0.75s var(--ease-out-expo);
+        pointer-events: none;
+      }
+      .concierge-menu.is-open {
+        clip-path: inset(0 0 0% 0);
+        pointer-events: auto;
+      }
+      .concierge-menu__left {
+        padding: 110px var(--gutter) 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid rgba(191, 217, 238, 0.14);
+      }
+      .concierge-menu__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 40px;
+      }
+      .concierge-menu__item {
+        font-family: var(--font-display);
+        font-size: clamp(1.75rem, 2.6vw, 2.75rem);
+        font-weight: 300;
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        cursor: pointer;
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(191, 217, 238, 0.1);
+        transition: color 0.3s ease, padding-left 0.35s var(--ease-out-expo);
+      }
+      .concierge-menu__item span {
+        font-family: var(--font-sans);
+        font-size: 0.7rem;
+        color: var(--c-blue-200);
+        letter-spacing: 0.14em;
+      }
+      .concierge-menu__item:hover {
+        color: var(--c-blue-200);
+        padding-left: 12px;
+      }
+      .concierge-menu__right {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 48px;
+      }
+      .concierge-menu__preview {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.55;
+        transition: transform 0.9s var(--ease-out-expo), opacity 0.45s ease;
+      }
+      .concierge-menu__close {
+        position: absolute;
+        top: 24px;
+        right: var(--gutter);
+        z-index: 10;
+        color: var(--c-white);
+        font-size: 0.75rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        padding: 10px 18px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        cursor: pointer;
+      }
+
+      /* Floating Art Direction Studio Dock (Top-Right Below Header, Collapsible) */
+      .studio-dock {
+        position: fixed;
+        top: 86px;
+        right: var(--gutter);
+        z-index: 490;
+        background: rgba(7, 26, 47, 0.88);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(191, 217, 238, 0.28);
+        color: var(--c-white);
+        padding: 8px 12px;
+        border-radius: 2px;
+        box-shadow: 0 16px 40px rgba(7, 26, 47, 0.35);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.35s var(--ease-out-expo);
+      }
+      .studio-dock__header {
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--c-blue-200);
+        white-space: nowrap;
+        padding-right: 8px;
+        border-right: 1px solid rgba(191, 217, 238, 0.2);
+      }
+      .studio-dock__pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .studio-pill {
+        font-size: 0.72rem;
+        font-weight: 500;
+        padding: 6px 11px;
+        border: 1px solid rgba(191, 217, 238, 0.22);
+        color: var(--c-blue-100);
+        background: rgba(255, 255, 255, 0.04);
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all 0.25s ease;
+      }
+      .studio-pill:hover {
+        background: rgba(255, 255, 255, 0.14);
+        color: var(--c-white);
+      }
+      .studio-pill.is-active {
+        background: var(--c-white);
+        color: var(--c-navy-950);
+        border-color: var(--c-white);
+        font-weight: 600;
+      }
+
+      /* Slide-Out Booking Drawer */
+      .booking-drawer-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 850;
+        background: rgba(7, 26, 47, 0.65);
+        backdrop-filter: blur(6px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s ease;
+      }
+      .booking-drawer-backdrop.is-open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .booking-drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: min(540px, 100vw);
+        z-index: 860;
+        background: var(--c-white);
+        color: var(--c-ink);
+        padding: 40px;
+        overflow-y: auto;
+        transform: translateX(100%);
+        transition: transform 0.55s var(--ease-out-expo);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: 1px solid var(--c-stone);
+      }
+      .booking-drawer.is-open {
+        transform: translateX(0);
+      }
+      .form-group {
+        margin-bottom: 18px;
+      }
+      .form-label {
+        display: block;
+        font-size: 0.72rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: var(--c-ink-soft);
+        margin-bottom: 6px;
+      }
+      .form-control {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--c-sand);
+        background: var(--c-mist);
+        font-size: 0.9375rem;
+        border-radius: 2px;
+      }
+      .form-control:focus {
+        outline: 2px solid var(--c-focus);
+        background: var(--c-white);
+      }
+
+      /* Fullscreen Lightbox */
+      .lightbox {
+        position: fixed;
+        inset: 0;
+        z-index: 950;
+        background: rgba(7, 26, 47, 0.96);
+        color: var(--c-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 32px var(--gutter);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s ease;
+      }
+      .lightbox.is-open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .lightbox__stage {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 24px 0;
+      }
+      .lightbox__stage img {
+        max-height: 76vh;
+        max-width: 90vw;
+        object-fit: contain;
+        border: 1px solid rgba(191, 217, 238, 0.2);
+      }
+    }
+
+    @layer pages {
+      /* =====================================================
+         HERO STAGE (3 DISTINCT CONCEPTS)
+         ===================================================== */
+      .hero-wrapper {
+        position: relative;
+        min-height: 100svh;
+        overflow: hidden;
+      }
+      .hero-scene {
+        display: none;
+        min-height: 100svh;
+        position: relative;
+      }
+      .hero-scene.is-active {
+        display: flex;
+      }
+
+      /* CONCEPT 1: Cinematic Golden-Hour Lake & Twilight Pool */
+      .hero-c1 {
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 132px var(--gutter) 44px;
+        background: var(--c-navy-950);
+        color: var(--c-white);
+      }
+      .hero-c1__media {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        overflow: hidden;
+      }
+      .hero-c1__img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 42%;
+        transform: scale(1.06);
+        transition: opacity 1.2s ease, transform 12s ease-out;
+      }
+      .hero-c1__img.is-hidden {
+        opacity: 0;
+      }
+      .hero-c1__overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        background:
+          radial-gradient(circle at 75% 25%, rgba(7, 26, 47, 0.15) 0%, rgba(7, 26, 47, 0.72) 100%),
+          linear-gradient(180deg, rgba(7, 26, 47, 0.65) 0%, rgba(7, 26, 47, 0.18) 40%, rgba(7, 26, 47, 0.90) 100%);
+      }
+      .hero-c1__bathymetry {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        opacity: 0.18;
+        pointer-events: none;
+      }
+      .hero-c1__inner {
+        position: relative;
+        z-index: 3;
+        max-width: var(--container-max);
+        width: 100%;
+        margin: 0 auto;
+      }
+      .hero-c1__grid {
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+        align-items: end;
+        gap: 40px;
+        margin-bottom: 44px;
+      }
+      .hero-c1__mood-toggle {
+        justify-self: end;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+      }
+      .mood-switch {
+        display: inline-flex;
+        background: rgba(7, 26, 47, 0.72);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(191, 217, 238, 0.25);
+        padding: 4px;
+        border-radius: 2px;
+      }
+      .mood-switch button {
+        padding: 7px 14px;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--c-blue-200);
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all 0.25s ease;
+      }
+      .mood-switch button.is-active {
+        background: var(--c-blue-500);
+        color: var(--c-white);
+        font-weight: 600;
+      }
+
+      /* Architectural Booking Bar */
+      .booking-bar {
+        display: grid;
+        grid-template-columns: 1.2fr 1.2fr 1.2fr 1.4fr auto;
+        background: rgba(7, 26, 47, 0.88);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(191, 217, 238, 0.26);
+        border-radius: 2px;
+      }
+      .booking-bar__cell {
+        padding: 18px 24px;
+        border-right: 1px solid rgba(191, 217, 238, 0.14);
+        cursor: pointer;
+        transition: background 0.25s ease;
+      }
+      .booking-bar__cell:hover {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .booking-bar__label {
+        font-size: 0.6875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--c-blue-200);
+        margin-bottom: 4px;
+      }
+      .booking-bar__val {
+        font-family: var(--font-display);
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: var(--c-white);
+        line-height: 1.2;
+      }
+      .booking-bar__cta {
+        background: var(--c-blue-500);
+        color: var(--c-white);
+        padding: 0 36px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .booking-bar__cta:hover {
+        background: var(--c-navy-700);
+      }
+
+      /* CONCEPT 2: FORESTIS / 7132 Swiss Architectural Portal */
+      .hero-c2 {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 118px var(--gutter) 40px;
+        background: var(--c-mist);
+        color: var(--c-navy-950);
+      }
+      .hero-c2__top {
+        max-width: var(--container-max);
+        width: 100%;
+        margin: 0 auto 28px;
+        display: grid;
+        grid-template-columns: 3fr 6fr 3fr;
+        align-items: end;
+        gap: 24px;
+        border-bottom: 1px solid var(--c-sand);
+        padding-bottom: 24px;
+      }
+      .hero-c2__portal-wrap {
+        max-width: var(--container-max);
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        height: 58vh;
+        overflow: hidden;
+        clip-path: inset(0% 6% 0% 6% round 2px);
+        transition: clip-path 1s var(--ease-out-expo);
+        cursor: pointer;
+      }
+      .hero-c2__portal-wrap.is-expanded,
+      .hero-c2__portal-wrap:hover {
+        clip-path: inset(0% 0% 0% 0% round 0px);
+      }
+      .hero-c2__portal-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.08);
+        transition: transform 1.4s var(--ease-out-expo);
+      }
+      .hero-c2__portal-wrap:hover img {
+        transform: scale(1);
+      }
+      .hero-c2__bar {
+        position: absolute;
+        bottom: 24px;
+        left: 8%;
+        right: 8%;
+        background: rgba(7, 26, 47, 0.88);
+        backdrop-filter: blur(16px);
+        color: var(--c-white);
+        padding: 16px 28px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgba(191, 217, 238, 0.25);
+      }
+
+      /* CONCEPT 3: Interactive Dual-Element Diptych (H2O Water & Koliba Timber) */
+      .hero-c3 {
+        width: 100%;
+        min-height: 100svh;
+        position: relative;
+        flex-direction: column;
+      }
+      .hero-c3__split {
+        display: flex;
+        width: 100%;
+        min-height: 100svh;
+      }
+      .hero-c3__col {
+        flex: 1;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 120px 56px 56px;
+        color: var(--c-white);
+        transition: flex 0.85s var(--ease-out-expo);
+        border-right: 1px solid rgba(191, 217, 238, 0.2);
+      }
+      .hero-c3__col:hover {
+        flex: 1.45;
+      }
+      .hero-c3__col-bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.06);
+        transition: transform 1.2s var(--ease-out-expo);
+        z-index: 1;
+      }
+      .hero-c3__col:hover .hero-c3__col-bg {
+        transform: scale(1);
+      }
+      .hero-c3__col-scrim {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(7, 26, 47, 0.45) 0%, rgba(7, 26, 47, 0.25) 45%, rgba(7, 26, 47, 0.92) 100%);
+        z-index: 2;
+      }
+      .hero-c3__col-content {
+        position: relative;
+        z-index: 3;
+        max-width: 520px;
+      }
+      .hero-c3__seal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        background: rgba(7, 26, 47, 0.92);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(191, 217, 238, 0.32);
+        color: var(--c-white);
+        padding: 32px 44px;
+        text-align: center;
+        pointer-events: none;
+      }
+
+      /* =====================================================
+         HOMEPAGE SECTIONS (15 MANDATORY ARCHITECTURAL CHAPTERS)
+         ===================================================== */
+      .section-light {
+        background: var(--c-mist);
+        color: var(--c-ink);
+        padding: clamp(5rem, 9vw, 9.5rem) var(--gutter);
+        position: relative;
+        border-bottom: 1px solid var(--c-stone);
+      }
+      .section-white {
+        background: var(--c-white);
+        color: var(--c-ink);
+        padding: clamp(5rem, 9vw, 9.5rem) var(--gutter);
+        position: relative;
+        border-bottom: 1px solid var(--c-stone);
+      }
+      .section-stone {
+        background: var(--c-stone);
+        color: var(--c-ink);
+        padding: clamp(5rem, 9vw, 9.5rem) var(--gutter);
+        position: relative;
+        border-bottom: 1px solid var(--c-sand);
+      }
+      .section-navy {
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        padding: clamp(5.5rem, 10vw, 10rem) var(--gutter);
+        position: relative;
+        overflow: hidden;
+      }
+      .container {
+        max-width: var(--container-max);
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+
+      /* Section Index Marker */
+      .chapter-head {
+        display: grid;
+        grid-template-columns: 3fr 9fr;
+        gap: 32px;
+        align-items: start;
+        margin-bottom: clamp(3rem, 6vw, 5.5rem);
+        padding-bottom: 28px;
+        border-bottom: 1px solid rgba(20, 32, 43, 0.12);
+      }
+      .section-navy .chapter-head {
+        border-bottom-color: rgba(191, 217, 238, 0.16);
+      }
+      .chapter-index {
+        font-family: var(--font-sans);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--c-blue-500);
+      }
+      .section-navy .chapter-index {
+        color: var(--c-blue-200);
+      }
+
+      /* Section 02: Intro Manifesto + Asymmetric Collage */
+      .manifesto-grid {
+        display: grid;
+        grid-template-columns: 7fr 5fr;
+        gap: 64px;
+        align-items: center;
+      }
+      .manifesto-quote {
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 3.3vw, 3.6rem);
+        font-weight: 300;
+        line-height: 1.16;
+        color: var(--c-navy-950);
+        margin-bottom: 32px;
+      }
+      .manifesto-quote em {
+        font-style: italic;
+        color: var(--c-navy-700);
+      }
+      .manifesto-collage {
+        position: relative;
+        display: grid;
+        grid-template-columns: 12fr;
+      }
+      .manifesto-img-main {
+        width: 88%;
+        height: 520px;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+      .manifesto-img-float {
+        position: absolute;
+        bottom: -36px;
+        right: 0;
+        width: 54%;
+        height: 280px;
+        object-fit: cover;
+        border: 8px solid var(--c-mist);
+        box-shadow: 0 24px 48px rgba(7, 26, 47, 0.12);
+      }
+
+      /* Architectural Facts Bar */
+      .facts-strip {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-top: 1px solid var(--c-sand);
+        border-bottom: 1px solid var(--c-sand);
+        margin-top: 80px;
+      }
+      .fact-cell {
+        padding: 36px 28px;
+        border-right: 1px solid var(--c-sand);
+      }
+      .fact-cell:last-child {
+        border-right: none;
+      }
+      .fact-number {
+        font-family: var(--font-display);
+        font-size: clamp(2.75rem, 4.5vw, 4.5rem);
+        font-weight: 300;
+        line-height: 1;
+        color: var(--c-navy-900);
+        margin-bottom: 8px;
+      }
+      .fact-label {
+        font-size: 0.8125rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--c-ink-soft);
+      }
+
+      /* Section 04: Hotels & Room Categories Showcase */
+      .hotel-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 48px;
+      }
+      .hotel-tab {
+        padding: 14px 28px;
+        border: 1px solid var(--c-sand);
+        background: var(--c-mist);
+        font-size: 0.8125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+      }
+      .hotel-tab.is-active {
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        border-color: var(--c-navy-950);
+      }
+      .hotel-panel {
+        display: none;
+      }
+      .hotel-panel.is-active {
+        display: block;
+      }
+      .room-showcase-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+      .room-card {
+        background: var(--c-mist);
+        border: 1px solid var(--c-stone);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: border-color 0.35s ease, transform 0.45s var(--ease-out-expo);
+      }
+      .room-card:hover {
+        border-color: var(--c-blue-500);
+        transform: translateY(-4px);
+      }
+      .room-card__media {
+        position: relative;
+        height: 310px;
+        overflow: hidden;
+      }
+      .room-card__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.85s var(--ease-out-expo);
+      }
+      .room-card:hover .room-card__media img {
+        transform: scale(1.06);
+      }
+      .room-card__badge {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        background: rgba(7, 26, 47, 0.88);
+        backdrop-filter: blur(8px);
+        color: var(--c-white);
+        padding: 6px 12px;
+        font-size: 0.6875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+      }
+      .room-card__body {
+        padding: 28px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .room-card__specs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        font-size: 0.78rem;
+        color: var(--c-ink-soft);
+        margin: 12px 0 20px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--c-stone);
+      }
+      .room-card__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 16px;
+      }
+      .room-price {
+        font-family: var(--font-display);
+        font-size: 1.75rem;
+        font-weight: 500;
+        color: var(--c-navy-950);
+      }
+      .room-price small {
+        font-family: var(--font-sans);
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: var(--c-ink-soft);
+      }
+
+      /* Section 05: Pool & SPA Dark Navy Editorial Chapter */
+      .spa-bento {
+        display: grid;
+        grid-template-columns: 7fr 5fr;
+        gap: 32px;
+        margin-bottom: 48px;
+      }
+      .spa-bento__main {
+        position: relative;
+        height: 540px;
+        overflow: hidden;
+        border: 1px solid rgba(191, 217, 238, 0.18);
+      }
+      .spa-bento__main img,
+      .spa-bento__side-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 1s var(--ease-out-expo);
+      }
+      .spa-bento__main:hover img,
+      .spa-bento__side-item:hover img {
+        transform: scale(1.05);
+      }
+      .spa-bento__side {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 32px;
+      }
+      .spa-bento__side-item {
+        position: relative;
+        height: 254px;
+        overflow: hidden;
+        border: 1px solid rgba(191, 217, 238, 0.18);
+      }
+      .spa-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 24px;
+        background: linear-gradient(180deg, rgba(7, 26, 47, 0) 0%, rgba(7, 26, 47, 0.92) 100%);
+      }
+      .spa-schedule-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid rgba(191, 217, 238, 0.22);
+        background: rgba(11, 42, 74, 0.5);
+        backdrop-filter: blur(12px);
+      }
+      .spa-schedule-cell {
+        padding: 28px 32px;
+        border-right: 1px solid rgba(191, 217, 238, 0.14);
+      }
+      .spa-schedule-cell:last-child {
+        border-right: none;
+      }
+
+      /* Section 06: Wood-Fired Banya & Herbal Hot Tub Chan */
+      .banya-split {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 56px;
+        align-items: center;
+      }
+      .banya-visuals {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .banya-visuals img {
+        width: 100%;
+        height: 440px;
+        object-fit: cover;
+        border: 1px solid rgba(191, 217, 238, 0.2);
+      }
+      .banya-calc {
+        background: rgba(7, 26, 47, 0.75);
+        border: 1px solid rgba(191, 217, 238, 0.24);
+        padding: 36px;
+        margin-top: 28px;
+      }
+
+      /* Section 07: Restaurant Koliba & Menu Tabs */
+      .dining-layout {
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+        gap: 56px;
+        align-items: start;
+      }
+      .menu-board {
+        background: var(--c-white);
+        border: 1px solid var(--c-sand);
+        padding: 40px;
+      }
+      .menu-item-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--c-stone);
+      }
+      .menu-item-title {
+        font-family: var(--font-display);
+        font-size: 1.45rem;
+        font-weight: 500;
+        color: var(--c-navy-950);
+      }
+      .menu-item-desc {
+        font-size: 0.875rem;
+        color: var(--c-ink-soft);
+      }
+
+      /* Section 08: Horizontal Scroll Rail for Active Leisure */
+      .rail-section {
+        background: var(--c-mist);
+        padding: clamp(5rem, 8vw, 8rem) 0;
+        border-bottom: 1px solid var(--c-stone);
+        overflow: hidden;
+      }
+      .rail-track {
+        display: flex;
+        gap: 32px;
+        padding: 0 var(--gutter);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+      }
+      .rail-track::-webkit-scrollbar {
+        display: none;
+      }
+      .rail-card {
+        flex: 0 0 min(460px, 84vw);
+        scroll-snap-align: start;
+        background: var(--c-white);
+        border: 1px solid var(--c-stone);
+        display: flex;
+        flex-direction: column;
+      }
+      .rail-card__img {
+        height: 320px;
+        overflow: hidden;
+        position: relative;
+      }
+      .rail-card__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.8s var(--ease-out-expo);
+      }
+      .rail-card:hover .rail-card__img img {
+        transform: scale(1.06);
+      }
+      .rail-card__body {
+        padding: 28px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      /* Section 11: Editorial Masonry Gallery */
+      .gallery-masonry {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 20px;
+      }
+      .gallery-cell {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        background: var(--c-navy-950);
+      }
+      .gallery-cell img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.85s var(--ease-out-expo), opacity 0.4s ease;
+      }
+      .gallery-cell:hover img {
+        transform: scale(1.05);
+      }
+      .g-span-7 { grid-column: span 7; height: 420px; }
+      .g-span-5 { grid-column: span 5; height: 420px; }
+      .g-span-4 { grid-column: span 4; height: 340px; }
+
+      /* Monumental Architectural Footer */
+      .site-footer {
+        background: var(--c-navy-950);
+        color: var(--c-white);
+        padding: 96px var(--gutter) 40px;
+        border-top: 1px solid rgba(191, 217, 238, 0.16);
+      }
+      .footer-grid {
+        max-width: var(--container-max);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 4fr 3fr 3fr 2fr;
+        gap: 48px;
+        padding-bottom: 64px;
+        border-bottom: 1px solid rgba(191, 217, 238, 0.14);
+      }
+      .footer-giant {
+        max-width: var(--container-max);
+        margin: 40px auto 0;
+        font-family: var(--font-display);
+        font-size: clamp(3.5rem, 11vw, 11.5rem);
+        font-weight: 300;
+        letter-spacing: 0.12em;
+        text-align: center;
+        line-height: 0.9;
+        color: rgba(191, 217, 238, 0.12);
+        user-select: none;
+      }
+
+      /* Mobile Sticky Bottom Action Bar */
+      .mobile-bottom-bar {
+        display: none;
+      }
+
+      @media (max-width: 1024px) {
+        .header-nav, .header-phone, .brand-sub, .studio-dock { display: none; }
+        .hero-c1__grid, .manifesto-grid, .chapter-head, .spa-bento,
+        .banya-split, .dining-layout, .footer-grid,
+        .hero-c2__top {
+          grid-template-columns: 1fr;
+        }
+        .concierge-menu {
+          display: flex;
+          flex-direction: column;
+          overflow-y: auto;
+          -webkit-overflow-scrolling: touch;
+        }
+        .concierge-menu__right {
+          display: none;
+        }
+        .concierge-menu__left {
+          padding: 84px 20px 88px;
+          border-right: none;
+          justify-content: flex-start;
+          gap: 24px;
+          min-height: 100%;
+        }
+        .concierge-menu__list {
+          grid-template-columns: 1fr;
+          gap: 4px;
+        }
+        .concierge-menu__item {
+          font-size: 1.55rem;
+          padding: 10px 0;
+        }
+        .concierge-menu__close {
+          position: fixed;
+          top: 12px;
+          right: 12px;
+          background: rgba(7, 26, 47, 0.94);
+          backdrop-filter: blur(12px);
+          padding: 8px 14px;
+          z-index: 820;
+        }
+        .room-showcase-grid, .spa-schedule-box, .facts-strip {
+          grid-template-columns: 1fr 1fr;
+        }
+        .booking-bar {
+          grid-template-columns: 1fr 1fr;
+        }
+        .booking-bar__cta {
+          grid-column: span 2;
+          padding: 18px;
+          justify-content: center;
+        }
+        .hero-c3__split {
+          flex-direction: column;
+          width: 100%;
+          min-height: auto;
+        }
+        .hero-c3__col,
+        .hero-c3__col:hover {
+          flex: none;
+          width: 100%;
+          min-height: 48svh;
+          padding: 104px 24px 36px;
+          border-right: none;
+          border-bottom: 1px solid rgba(191, 217, 238, 0.2);
+        }
+        .hero-c3__col + .hero-c3__col {
+          padding-top: 48px;
+        }
+        .hero-c3__seal {
+          position: relative;
+          top: auto;
+          left: auto;
+          transform: none;
+          width: 100%;
+          padding: 20px 24px;
+          border-left: none;
+          border-right: none;
+        }
+        .g-span-7, .g-span-5, .g-span-4 {
+          grid-column: span 6;
+          height: 280px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .section-light, .section-white, .section-stone, .section-navy {
+          padding: 56px 16px;
+        }
+        .page-hero {
+          min-height: 52svh !important;
+          padding: 96px 16px 36px !important;
+        }
+        h1, .t-h1 {
+          font-size: clamp(2.1rem, 8.2vw, 2.75rem);
+          line-height: 1.06;
+        }
+        h2, .t-h2 {
+          font-size: clamp(1.72rem, 6.8vw, 2.2rem);
+          line-height: 1.12;
+        }
+        h3, .t-h3 {
+          font-size: clamp(1.35rem, 5.2vw, 1.65rem);
+          line-height: 1.18;
+        }
+        .chapter-head {
+          gap: 10px;
+          margin-bottom: 28px;
+          padding-bottom: 16px;
+        }
+        .hero-c3__col,
+        .hero-c3__col:hover {
+          min-height: 44svh;
+          padding: 80px 18px 24px;
+        }
+        .hero-c3__col + .hero-c3__col {
+          padding-top: 28px;
+          min-height: 42svh;
+        }
+        .hero-c3__col h2 {
+          font-size: 1.95rem !important;
+          line-height: 1.08 !important;
+          margin-bottom: 8px !important;
+        }
+        .hero-c3__col p {
+          font-size: 0.875rem !important;
+          line-height: 1.48 !important;
+          margin-bottom: 16px !important;
+        }
+        .hero-c3__col .btn-primary {
+          width: 100%;
+          padding: 13px 16px;
+        }
+        .hero-c3__seal {
+          padding: 16px 18px;
+        }
+        .hero-c3__seal div:last-child {
+          font-size: 1.45rem !important;
+        }
+        .manifesto-grid {
+          gap: 32px;
+        }
+        .manifesto-quote {
+          font-size: 1.45rem;
+          padding-left: 16px;
+          margin-bottom: 18px;
+        }
+        .manifesto-img-main {
+          width: 90%;
+          height: 280px;
+        }
+        .manifesto-img-float {
+          width: 64%;
+          height: 165px;
+          bottom: -16px;
+          border-width: 4px;
+        }
+        .facts-strip {
+          grid-template-columns: 1fr 1fr;
+          margin-top: 40px;
+        }
+        .fact-cell {
+          padding: 20px 14px;
+          border-bottom: 1px solid var(--c-sand);
+        }
+        .fact-cell:nth-child(2n) {
+          border-right: none;
+        }
+        .fact-number {
+          font-size: 2.2rem;
+        }
+        .hotel-tabs {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .hotel-tab {
+          padding: 11px 6px;
+          font-size: 0.66rem;
+          text-align: center;
+          letter-spacing: 0.08em;
+        }
+        .room-showcase-grid, .spa-schedule-box, .booking-bar {
+          grid-template-columns: 1fr;
+        }
+        .room-card__media {
+          height: 230px;
+        }
+        .room-card__body {
+          padding: 20px 18px;
+        }
+        .room-card__footer {
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+        .spa-bento {
+          gap: 16px;
+          margin-bottom: 24px;
+        }
+        .spa-bento__main {
+          height: 280px;
+        }
+        .spa-bento__side {
+          gap: 16px;
+        }
+        .spa-bento__side-item {
+          height: 200px;
+        }
+        .spa-caption {
+          padding: 16px;
+        }
+        .spa-schedule-cell {
+          padding: 18px 16px;
+          border-right: none;
+          border-bottom: 1px solid rgba(191, 217, 238, 0.14);
+        }
+        .banya-split, .dining-layout {
+          gap: 28px;
+        }
+        .banya-visuals {
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+        }
+        .banya-visuals img {
+          height: 200px;
+        }
+        .banya-calc, .menu-board {
+          padding: 20px 16px;
+        }
+        .menu-item-row {
+          flex-direction: column;
+          gap: 4px;
+        }
+        .rail-track {
+          gap: 16px;
+          padding: 0 16px;
+        }
+        .rail-card {
+          flex: 0 0 85vw;
+        }
+        .rail-card__img {
+          height: 220px;
+        }
+        .rail-card__body {
+          padding: 20px 18px;
+        }
+        .booking-bar__cta {
+          grid-column: span 1;
+        }
+        .g-span-7, .g-span-5, .g-span-4 {
+          grid-column: span 12;
+          height: 230px;
+        }
+        #tur-3d {
+          padding: 24px 18px !important;
+        }
+        #tourFacade {
+          height: 420px !important;
+        }
+        .booking-drawer {
+          padding: 24px 18px 84px;
+          width: 100vw;
+        }
+        .site-footer {
+          padding: 56px 16px 88px;
+        }
+        .footer-grid {
+          gap: 32px;
+          padding-bottom: 40px;
+        }
+        [style*="padding: 40px"],
+        [style*="padding: 44px"],
+        [style*="padding: 48px"],
+        [style*="padding: 36px"] {
+          padding: 22px 18px !important;
+        }
+        [style*="minmax(340px"],
+        [style*="minmax(320px"],
+        [style*="minmax(300px"] {
+          grid-template-columns: 1fr !important;
+        }
+        form [style*="grid-template-columns: 1fr 1fr"] {
+          grid-template-columns: 1fr !important;
+          gap: 12px !important;
+        }
+        .amenity-grid {
+          grid-template-columns: 1fr !important;
+        }
+        .filter-pills {
+          flex-wrap: nowrap !important;
+          overflow-x: auto;
+          padding-bottom: 8px;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+        }
+        .filter-pills::-webkit-scrollbar {
+          display: none;
+        }
+        .filter-pill {
+          white-space: nowrap;
+          flex-shrink: 0;
+        }
+        .brand-wordmark { font-size: 1.05rem; letter-spacing: 0.08em; }
+        .brand-lockup { gap: 8px; }
+        .brand-menu-trigger { padding: 6px 9px; font-size: 0.65rem; gap: 6px; }
+        .site-header--v2 {
+          top: 8px;
+          left: 8px;
+          right: 8px;
+          padding: 10px 12px;
+        }
+        .site-header__inner { gap: 8px; }
+        .header-actions { gap: 8px; }
+        .header-actions .btn-primary { display: none; }
+        .header-lang { white-space: nowrap; font-size: 0.6875rem; }
+        .studio-dock {
+          display: none;
+        }
+        .mobile-bottom-bar {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 750;
+          background: var(--c-navy-950);
+          border-top: 1px solid rgba(191, 217, 238, 0.24);
+        }
+        .mobile-bottom-bar a,
+        .mobile-bottom-bar button {
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          color: var(--c-white);
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. CINEMATIC PRELOADER CURTAIN -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader__top">
+      <span>50°06'12"N 25°06'18"E</span>
+      <span>Львівська область · с. Лагодів</span>
+    </div>
+    <div class="preloader__center">
+      <div class="preloader__title">Лагодів</div>
+      <div class="preloader__sub">Тиша озера. Архітектура спокою.</div>
+    </div>
+    <div class="preloader__bottom">
+      <span style="font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--c-blue-200);">Озерний комплекс · H2O &amp; Колиба</span>
+      <div id="preloaderCount" class="preloader__counter t-num">100%</div>
+    </div>
+  </div>
+
+  <!-- 2. CUSTOM MAGNETIC CURSOR -->
+  <div id="cursorFollower" class="cursor-follower" aria-hidden="true"></div>
+
+  <!-- 3. ARCHITECTURAL TOP HEADER -->
+  <header id="siteHeader" class="site-header site-header--v2">
+    <div class="site-header__inner">
+      <div class="brand-lockup">
+        <button class="brand-menu-trigger" onclick="toggleConciergeMenu(true)" aria-label="Відкрити меню всіх розділів">
+          <span class="brand-menu-lines"><span></span><span></span></span>
+          <span>Меню</span>
+        </button>
+        <a href="#top" class="brand-wordmark">Лагодів</a>
+        <span class="brand-sub">Озерний комплекс</span>
+      </div>
+
+      <nav class="header-nav" aria-label="Основна навігація">
+        <a href="/lagodiv/prozhyvannya/">Проживання</a>
+        <a href="/lagodiv/basejn-ta-spa/">Басейн та SPA</a>
+        <a href="/lagodiv/banya/">Баня &amp; Чан</a>
+        <a href="/lagodiv/restoran/">Ресторан</a>
+        <a href="/lagodiv/rozvagy/">Розваги</a>
+        <a href="/lagodiv/halereya/">Галерея</a>
+        <a href="/lagodiv/kontakty/">Контакти</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="header-lang"><a href="/lagodiv/">УКР</a> / <a href="/lagodiv/en/" style="opacity: 0.6;">ENG</a></span>
+        <a href="tel:+380963372888" class="header-phone">+380 96 337 28 88</a>
+        <button class="btn-primary" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">Забронювати</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 4. FULLSCREEN CONCIERGE MENU CURTAIN -->
+  <aside id="conciergeMenu" class="concierge-menu" aria-label="Повноекранне меню комплексу">
+    <button class="concierge-menu__close" onclick="toggleConciergeMenu(false)">Закрити ✕</button>
+    <div class="concierge-menu__left">
+      <div class="t-eyebrow" style="color: var(--c-blue-200);">Карта озерного комплексу «Лагодів»</div>
+      <div class="concierge-menu__list">
+        <a href="#prozhyvannya" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/extra/landscape-01.png', 'Готелі H2O, «Колиба» та Котедж з власним пірсом')"><span>01</span>Проживання</a>
+        <a href="#basejn-spa" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/pool_spa/pool-main-03.jpg', 'Дорослий і дитячий басейн з гірками, сауна, хамам, джакузі')"><span>02</span>Басейн та SPA H2O</a>
+        <a href="#banya-chan" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/banya/banya-chan-01.png', 'Баня на дровах із пірсом (800 ₴) та чан на травах (1400 ₴)')"><span>03</span>Баня та Чан</a>
+        <a href="#restoran" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/restaurant/restoran-interior-01.jpg', 'Ресторан «Колиба»: українська кухня, мангал, сніданки')"><span>04</span>Ресторан «Колиба»</a>
+        <a href="#zahody" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/extra/rest-0899.jpg', 'Банкетна зала на 150 гостей та камерний Червоний зал')"><span>05</span>Банкети та Заходи</a>
+        <a href="#rozvagy" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/extra/kvadro-banner.jpeg', 'Квадроцикли, тенісний корт, каяки, САПи, канатне містечко')"><span>06</span>Розваги в лісі й на воді</a>
+        <a href="#rybolovlya" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/hero/rybolovlya-hero.jpg', 'Ранкова та добова риболовля на пірсах озера Лагодів')"><span>07</span>Риболовля</a>
+        <a href="#halereya" class="concierge-menu__item" onclick="toggleConciergeMenu(false)" onmouseenter="swapMenuPreview('/lagodiv/media_inbox/pool_spa/spa-jacuzzi-01.jpg', 'Фотогалерея та інтерактивний 3D-тур територією 360°')"><span>08</span>Галерея та 3D-тур</a>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 32px; font-size: 0.8125rem; color: var(--c-blue-200); border-top: 1px solid rgba(191, 217, 238, 0.14); padding-top: 24px;">
+        <div><strong>Рецепція:</strong> <a href="tel:+380963372888">+380 96 337 28 88</a></div>
+        <div><strong>Басейн H2O:</strong> <a href="tel:+380966882577">+380 96 688 25 77</a></div>
+        <div><strong>Ресторан:</strong> <a href="tel:+380960307888">+380 96 030 78 88</a></div>
+        <div><strong>Адреса:</strong> Львівська обл., с. Лагодів, вул. Довга, 5</div>
+      </div>
+    </div>
+    <div class="concierge-menu__right">
+      <img id="menuPreviewImg" class="concierge-menu__preview" src="/lagodiv/media_inbox/extra/landscape-01.png" alt="Прев'ю розділу" />
+      <div style="position: relative; z-index: 2;">
+        <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 8px;">Атмосфера комплексу</div>
+        <div id="menuPreviewCaption" style="font-family: var(--font-display); font-size: 2rem; font-weight: 300;">Готелі H2O, «Колиба» та Котедж з власним пірсом</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 5. HERO STAGE WITH 3 LIVE CONCEPTS -->
+  <main id="top" class="hero-wrapper">
+
+    <!-- ===================================================
+         HERO CONCEPT 1: Cinematic Golden-Hour Lake & Twilight Pool
+         =================================================== -->
+    <section id="heroScene1" class="hero-scene hero-c1" aria-label="Концепція Hero 1: Кінематографічне озеро">
+      <div class="hero-c1__media">
+        <img id="heroC1Day" class="hero-c1__img" src="/lagodiv/media_inbox/extra/landscape-01.png" alt="Золотий захід сонця над озером Лагодів, дерев'яні пірси та сосновий ліс" />
+        <img id="heroC1Night" class="hero-c1__img is-hidden" src="/lagodiv/media_inbox/pool_spa/pool-main-03.jpg" alt="Вечірній підсвічений басейн H2O в озерному комплексі Лагодів" />
+      </div>
+      <div class="hero-c1__overlay"></div>
+
+      <!-- Subtle SVG Topographic Lake Bathymetry -->
+      <svg class="hero-c1__bathymetry" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-120 620 C 280 510, 740 770, 1560 560" stroke="#BFD9EE" stroke-width="1" />
+        <path d="M-120 690 C 330 580, 780 830, 1560 630" stroke="#BFD9EE" stroke-width="0.7" />
+        <path d="M-120 760 C 370 650, 830 880, 1560 700" stroke="#BFD9EE" stroke-width="0.45" />
+      </svg>
+
+      <div class="hero-c1__inner">
+        <div class="hero-c1__grid">
+          <div>
+            <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 20px;">
+              50°06'12"N 25°06'18"E · Львівська область, с. Лагодів
+            </div>
+            <h1 class="t-h1" style="margin-bottom: 24px;">
+              Тиша озера.<br />
+              <em style="font-style: italic; font-weight: 300; color: var(--c-blue-100);">Архітектура спокою.</em>
+            </h1>
+            <p style="max-width: 600px; font-size: 1.125rem; color: rgba(255, 255, 255, 0.88);">
+              Озеро за вікном. Басейн і SPA за дверима. Сніданок уже чекає. Два готелі серед соснового лісу, котедж із власним пірсом, ресторан «Колиба» та баня з чаном на травах.
+            </p>
+          </div>
+
+          <div class="hero-c1__mood-toggle">
+            <span style="font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--c-blue-200);">Атмосфера Hero:</span>
+            <div class="mood-switch">
+              <button class="is-active" onclick="setHeroMood('day', this)">Світанок на озері</button>
+              <button onclick="setHeroMood('night', this)">Вечірній H2O &amp; SPA</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Integrated Architectural Booking Bar -->
+        <div class="booking-bar" role="region" aria-label="Перевірка доступності номерів">
+          <div class="booking-bar__cell" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">
+            <div class="booking-bar__label">Дата заїзду</div>
+            <div class="booking-bar__val t-num">20 Листопада 2026</div>
+          </div>
+          <div class="booking-bar__cell" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">
+            <div class="booking-bar__label">Дата виїзду</div>
+            <div class="booking-bar__val t-num">22 Листопада 2026</div>
+          </div>
+          <div class="booking-bar__cell" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">
+            <div class="booking-bar__label">Гості</div>
+            <div class="booking-bar__val">2 дорослих · 0 дітей</div>
+          </div>
+          <div class="booking-bar__cell" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">
+            <div class="booking-bar__label">Простір проживання</div>
+            <div class="booking-bar__val">Готелі H2O · Колиба · Котедж</div>
+          </div>
+          <button class="booking-bar__cta" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">
+            <span>Перевірити дати</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         HERO CONCEPT 2: FORESTIS / 7132 Swiss Architectural Portal
+         =================================================== -->
+    <section id="heroScene2" class="hero-scene hero-c2" aria-label="Концепція Hero 2: Архітектурний портал">
+      <div class="hero-c2__top">
+        <div>
+          <div class="t-eyebrow" style="color: var(--c-blue-500); margin-bottom: 8px;">01 / Озерний Резорт</div>
+          <div style="font-size: 0.8125rem; color: var(--c-ink-soft);">Львівська обл., Золочівський р-н, с. Лагодів, вул. Довга, 5</div>
+        </div>
+        <div>
+          <h1 style="font-family: var(--font-display); font-size: clamp(2.5rem, 4.8vw, 5.25rem); font-weight: 300; line-height: 1.02;">
+            Тиша озера. <em style="font-style: italic; color: var(--c-navy-700);">Архітектура спокою.</em>
+          </h1>
+        </div>
+        <div style="text-align: right;">
+          <button class="btn-primary" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">Підібрати номер →</button>
+        </div>
+      </div>
+
+      <div id="portalFrame" class="hero-c2__portal-wrap" onclick="this.classList.toggle('is-expanded')" data-cursor="Розкрити">
+        <img src="/lagodiv/media_inbox/pool_spa/spa-jacuzzi-01.jpg" alt="Панорамний критий басейн SPA з видом на очерет та озеро Лагодів" />
+        <div class="hero-c2__bar">
+          <div>
+            <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--c-blue-200); display: block;">Інтерактивний портал (Клік або Hover розширює Clip-Path)</span>
+            <span style="font-family: var(--font-display); font-size: 1.4rem;">Панорамна SPA-зона H2O з видом на озеро Лагодів</span>
+          </div>
+          <div style="display: flex; gap: 16px; align-items: center;">
+            <span class="t-num" style="font-size: 0.875rem;">H2O від 3 900 ₴ · Колиба від 2 000 ₴</span>
+            <button class="btn-primary" onclick="event.stopPropagation(); openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">Забронювати</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         HERO CONCEPT 3: Interactive Dual-Element Diptych (H2O & Koliba)
+         =================================================== -->
+    <section id="heroScene3" class="hero-scene hero-c3 is-active" aria-label="Концепція Hero 3: Диптих H2O та Колиба">
+      <div class="hero-c3__split">
+        <!-- Left Pane: Water H2O -->
+        <div class="hero-c3__col" data-cursor="H2O & SPA">
+          <img class="hero-c3__col-bg" src="/lagodiv/media_inbox/pool_spa/pool-main-03.jpg" alt="Вечірній басейн та готель H2O" />
+          <div class="hero-c3__col-scrim"></div>
+          <div class="hero-c3__col-content">
+            <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 12px;">Стихія Води · Сніданок та SPA включено</div>
+            <h2 style="font-family: var(--font-display); font-size: clamp(2.4rem, 3.8vw, 4rem); font-weight: 300; margin-bottom: 14px;">Готель та SPA «H2O»</h2>
+            <p style="color: rgba(255,255,255,0.86); margin-bottom: 28px;">
+              Сучасні номери з панорамою озера та прямим виходом до підігрітого басейну, фінська сауна, турецький хамам, джакузі та котедж на 200 м² із власним пірсом.
+            </p>
+            <button class="btn-primary" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">Номери H2O — від 3 900 ₴ / доба</button>
+          </div>
+        </div>
+
+        <!-- Right Pane: Timber Koliba -->
+        <div class="hero-c3__col" data-cursor="Колиба">
+          <img class="hero-c3__col-bg" src="/lagodiv/media_inbox/restaurant/restoran-interior-01.jpg" alt="Дерев'яний комплекс та ресторан Колиба серед соснового лісу" />
+          <div class="hero-c3__col-scrim"></div>
+          <div class="hero-c3__col-content">
+            <div class="t-eyebrow" style="color: var(--c-sand); margin-bottom: 12px;">Стихія Дерева · Сосновий затишок</div>
+            <h2 style="font-family: var(--font-display); font-size: clamp(2.4rem, 3.8vw, 4rem); font-weight: 300; margin-bottom: 14px;">Готель та Ресторан «Колиба»</h2>
+            <p style="color: rgba(255,255,255,0.86); margin-bottom: 28px;">
+              Шість категорій затишних номерів із видом на ліс та озеро, автентична українська кухня з мангалу, банкетна зала на 150 гостей та камерний Червоний зал.
+            </p>
+            <button class="btn-primary" style="background: var(--c-moss);" onclick="openBookingDrawer('Готель «Колиба» — Стандартний двомісний', 2000)">Номери «Колиба» — від 2 000 ₴ / доба</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-c3__seal">
+        <div style="font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--c-blue-200); margin-bottom: 6px;">Озерний комплекс «Лагодів»</div>
+        <div style="font-family: var(--font-display); font-size: 2.1rem; font-weight: 300;">Тиша озера. <em style="font-style: italic;">Архітектура спокою.</em></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       SECTION 02 & 03: INTRO MANIFESTO & ARCHITECTURAL FIGURES (60% LIGHT)
+       ===================================================== -->
+  <section id="pro-kompleks" class="section-light">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">01 / Філософія місця</div>
+        <div>
+          <h2 class="t-h2">Місце, де сосновий ліс зустрічається з дзеркалом озера</h2>
+        </div>
+      </div>
+
+      <div class="manifesto-grid">
+        <div>
+          <blockquote class="manifesto-quote">
+            «Поставте на паузу міський ритм. Тут ранок починається з туману над водою та сніданку на терасі, день минає біля теплого басейну й у тіні сосен, а вечір звучить тишею парної на дровах.»
+          </blockquote>
+          <p style="color: var(--c-ink-soft); margin-bottom: 28px; max-width: 580px;">
+            Озерний комплекс «Лагодів» розташований у Золочівському районі на Львівщині (с. Лагодів, вул. Довга, 5). Ми об’єднали дві архітектурні стихії: сучасний водний простір <strong>H2O</strong> з прямим виходом до басейнів та SPA-зони й теплу дерев’яну класику готелю та ресторану <strong>«Колиба»</strong>.
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 16px;">
+            <a href="#prozhyvannya" class="btn-primary">Обрати формат проживання</a>
+            <a href="#tur-3d" class="btn-outline">Віртуальний 3D-тур 360°</a>
+          </div>
+        </div>
+
+        <div class="manifesto-collage" data-cursor="Атмосфера">
+          <img class="manifesto-img-main" src="/lagodiv/media_inbox/extra/landscape-01.png" alt="Панорама озера Лагодів та дерев'яних пірсів на заході сонця" />
+          <img class="manifesto-img-float" src="/lagodiv/media_inbox/pool_spa/spa-jacuzzi-01.jpg" alt="Вид із панорамного басейну SPA на очерет та воду озера" />
+        </div>
+      </div>
+
+      <div class="facts-strip">
+        <div class="fact-cell">
+          <div class="fact-number t-num">2 + 1</div>
+          <div class="fact-label">Готелі «H2O» і «Колиба» та двоповерховий Котедж 200 м² із пірсом</div>
+        </div>
+        <div class="fact-cell">
+          <div class="fact-number t-num">10</div>
+          <div class="fact-label">Підтверджених категорій номерів від 2 000 ₴ до 14 000 ₴ за добу</div>
+        </div>
+        <div class="fact-cell">
+          <div class="fact-number t-num">150</div>
+          <div class="fact-label">Гостей у великій Банкетній залі + камерний Червоний зал і тераса</div>
+        </div>
+        <div class="fact-cell">
+          <div class="fact-number t-num">17 років</div>
+          <div class="fact-label">Досвіду гостинності, сімейного відпочинку та проведення подій</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 04: ACCOMMODATION — H2O, KOLIBA & COTTAGE (WHITE EDITORIAL)
+       ===================================================== -->
+  <section id="prozhyvannya" class="section-white">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">02 / Проживання</div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px;">
+          <div>
+            <h2 class="t-h2">Два готелі та озерний котедж</h2>
+            <p style="color: var(--c-ink-soft); margin-top: 12px; max-width: 640px;">
+              Усі характеристики, площі та базові тарифи синхронізовані з актуальним номерним фондом комплексу. Заселення з 14:00 (Котедж — з 15:00), виселення до 12:00.
+            </p>
+          </div>
+          <div class="hotel-tabs" role="tablist">
+            <button class="hotel-tab is-active" onclick="switchHotelTab('h2o', this)">Готель H2O та Котедж (4)</button>
+            <button class="hotel-tab" onclick="switchHotelTab('koliba', this)">Готель «Колиба» (6)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 1: HOTEL H2O & COTTAGE -->
+      <div id="panel-h2o" class="hotel-panel is-active">
+        <div class="room-showcase-grid">
+          <!-- Room 1 -->
+          <article class="room-card">
+            <div class="room-card__media" data-cursor="Детальніше">
+              <img src="/lagodiv/media_inbox/hotel_h2o/h2o-room-02.jpg" alt="Стандартний двомісний номер з видом на озеро в готелі H2O" />
+              <span class="room-card__badge">Готель H2O · Сніданок + SPA включено</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Стандартний двомісний з видом на озеро</h3>
+                <div class="room-card__specs t-num">
+                  <span>20 м²</span><span>•</span><span>2 дорослих + 1 дитина до 12 р.</span><span>•</span><span>Вихід до басейну</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Сучасний номер із панорамним видом на озеро та прямим виходом до басейну. У вартість входять сніданки та відвідування зони басейну і SPA.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 3 900 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Готель H2O — Стандарт двомісний з видом на озеро (20 м²)', 3900)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Room 2 -->
+          <article class="room-card">
+            <div class="room-card__media" data-cursor="Детальніше">
+              <img src="/lagodiv/media_inbox/territory/grounds-exterior-03.jpg" alt="Сімейний люкс та Стандарт Твін з видом на озеро в готелі H2O" />
+              <span class="room-card__badge">Готель H2O · 2 кімнати · Сніданок + SPA</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Сімейний люкс з видом на озеро</h3>
+                <div class="room-card__specs t-num">
+                  <span>40 м²</span><span>•</span><span>4 особи · 2 кімнати</span><span>•</span><span>Вид на озеро та басейн</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Просторий двокімнатний люкс для сім’ї або компанії друзів. Також доступний <strong>Стандартний Твін (25 м², 2+2 дітей)</strong> від 3 900 ₴/доба.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 5 000 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Готель H2O — Сімейний люкс з видом на озеро (40 м²)', 5000)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Room 3: Lakeside Cottage -->
+          <article class="room-card">
+            <div class="room-card__media" data-cursor="Котедж 200м²">
+              <img src="/lagodiv/media_inbox/hotel_h2o/h2o-cottage-01.jpg" alt="Камінна зала двоповерхового котеджу на 14 осіб із власним пірсом" />
+              <span class="room-card__badge" style="background: var(--c-moss);">Приватний пірс · 5 спалень · Барбекю</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Котедж на березі озера з пірсом</h3>
+                <div class="room-card__specs t-num">
+                  <span>200 м²</span><span>•</span><span>До 14 гостей</span><span>•</span><span>5 спалень + Камінна зала</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Повноцінна кухня, тераса з виходом на озеро і власним пірсом, зона барбекю, камінна бенкетна зала. Заселення після 15:00.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 14 000 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Котедж на березі озера (200 м², до 14 гостей)', 14000)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- TAB 2: HOTEL KOLIBA (6 CATEGORIES) -->
+      <div id="panel-koliba" class="hotel-panel">
+        <div class="room-showcase-grid">
+          <article class="room-card">
+            <div class="room-card__media">
+              <img src="/lagodiv/media_inbox/hotel_koliba/koliba-room-04.jpg" alt="Стандартний двомісний номер та номер з балконом у готелі Колиба" />
+              <span class="room-card__badge">Готель «Колиба» · Вид на озеро / ліс</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Стандартний двомісний та Стандарт з балконом</h3>
+                <div class="room-card__specs t-num">
+                  <span>25 м² (з балконом)</span><span>•</span><span>2 особи</span><span>•</span><span>DBL/TWIN · Кондиціонер · Сейф</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Базовий Стандарт — <strong>від 2 000 ₴/доба</strong>; Стандарт із балконом та видом на озеро — <strong>від 2 200 ₴/доба</strong>. Діти до 5 років — безкоштовно.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 2 000 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Готель «Колиба» — Стандартний двомісний', 2000)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <div class="room-card__media">
+              <img src="/lagodiv/media_inbox/hotel_koliba/koliba-room-06.png" alt="Покращений стандартний та Трьохмісний номер у готелі Колиба" />
+              <span class="room-card__badge">Готель «Колиба» · Вид на озеро</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Покращений стандарт та Трьохмісний (2 кімнати)</h3>
+                <div class="room-card__specs t-num">
+                  <span>22 м²</span><span>•</span><span>2+1 дитина або 3 дорослих</span><span>•</span><span>Холодильник, чайник</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Покращений стандарт з видом на озеро — <strong>від 2 400 ₴/доба</strong>; Трьохмісний двокімнатний стандарт — <strong>2 500 ₴/доба</strong>.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 2 400 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Готель «Колиба» — Покращений стандартний (22 м²)', 2400)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <div class="room-card__media">
+              <img src="/lagodiv/media_inbox/extra/vitalnya.jpg" alt="Двомісний люкс та Сімейний двокімнатний стандарт у готелі Колиба" />
+              <span class="room-card__badge">Готель «Колиба» · Люкс та Сімейний</span>
+            </div>
+            <div class="room-card__body">
+              <div>
+                <h3 class="t-h3">Двомісний люкс та Сімейний стандарт (2 кімнати)</h3>
+                <div class="room-card__specs t-num">
+                  <span>25 м²</span><span>•</span><span>До 4 осіб (2 кімнати)</span><span>•</span><span>Вид на озеро та ліс</span>
+                </div>
+                <p style="font-size: 0.925rem; color: var(--c-ink-soft);">
+                  Просторий двокімнатний сімейний номер на 4 гостей або затишний Двомісний люкс із додатковим місцем для дитини до 12 років.
+                </p>
+              </div>
+              <div class="room-card__footer">
+                <div class="room-price t-num">від 2 800 ₴ <small>/ доба</small></div>
+                <button class="btn-primary" onclick="openBookingDrawer('Готель «Колиба» — Сімейний стандарт / Люкс (25 м²)', 2800)">Забронювати</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 05: POOL & SPA H2O (25% DEEP NAVY CHAPTER)
+       ===================================================== -->
+  <section id="basejn-spa" class="section-navy">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">03 / Водний комплекс H2O</div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px;">
+          <div>
+            <h2 class="t-h2">Басейни з підігрівом та SPA-світ біля озера</h2>
+            <p style="color: var(--c-blue-200); margin-top: 12px; max-width: 660px;">
+              Дорослий відкритий басейн, дитячий аквакомплекс із водними гірками та крита SPA-зона: фінська сауна, турецький хамам, гідромасажне джакузі та релакс-лаунж.
+            </p>
+          </div>
+          <a href="tel:+380966882577" class="btn-primary">Рецепція SPA: +380 96 688 25 77</a>
+        </div>
+      </div>
+
+      <div class="spa-bento">
+        <div class="spa-bento__main" data-cursor="SPA Лаунж">
+          <img src="/lagodiv/media_inbox/pool_spa/spa-jacuzzi-01.jpg" alt="Критий панорамний басейн SPA H2O з видом на озеро Лагодів" />
+          <div class="spa-caption">
+            <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 6px;">Панорама озера з теплої води</div>
+            <h3 class="t-h3">Критий SPA-басейн, фінська сауна та турецький хамам</h3>
+          </div>
+        </div>
+        <div class="spa-bento__side">
+          <div class="spa-bento__side-item" data-cursor="Релакс">
+            <img src="/lagodiv/media_inbox/extra/spa-photo-28.jpg" alt="Кам'яна зона релаксу з шезлонгами у SPA Лагодів" />
+            <div class="spa-caption">
+              <div style="font-family: var(--font-display); font-size: 1.5rem;">Кам’яна зала тиші та релаксу після парної</div>
+            </div>
+          </div>
+          <div class="spa-bento__side-item" data-cursor="Гідромасаж">
+            <img src="/lagodiv/media_inbox/extra/spa-photo-29.jpg" alt="Гідромасажне джакузі у SPA-комплексі H2O" />
+            <div class="spa-caption">
+              <div style="font-family: var(--font-display); font-size: 1.5rem;">Гідромасажне джакузі та відкриті літні басейни з гірками</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spa-schedule-box">
+        <div class="spa-schedule-cell">
+          <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 8px;">Графік Басейну, SPA та Бару</div>
+          <div class="t-num" style="font-family: var(--font-display); font-size: 1.85rem; margin-bottom: 6px;">Пн–Пт: 16:00 – 21:00</div>
+          <div class="t-num" style="font-family: var(--font-display); font-size: 1.85rem; color: var(--c-blue-200);">Сб–Нд: 11:00 – 21:00</div>
+        </div>
+        <div class="spa-schedule-cell">
+          <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 8px;">Зимовий режим роботи</div>
+          <p style="font-size: 0.9rem; color: var(--c-blue-100);">
+            У зимовий сезон працює крита SPA-зона (фінська сауна, хамам, джакузі), а відкритий басейн функціонує для контрастного занурення після сауни.
+          </p>
+        </div>
+        <div class="spa-schedule-cell">
+          <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 8px;">Привілеї для гостей</div>
+          <p style="font-size: 0.9rem; color: var(--c-blue-100);">
+            Для мешканців номерів готелю <strong>H2O</strong> відвідування SPA та басейну включено у вартість. У день виселення для гостей готелів діє спеціальна знижка.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 06: WOOD-FIRED BANYA & HERBAL CHAN (DEEP NAVY 900)
+       ===================================================== -->
+  <section id="banya-chan" class="section-navy" style="background: var(--c-navy-900); border-top: 1px solid rgba(191, 217, 238, 0.14);">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">04 / Ритуали пари та води</div>
+        <div>
+          <h2 class="t-h2">Баня на дровах із виходом на пірс та Чан на травах</h2>
+        </div>
+      </div>
+
+      <div class="banya-split">
+        <div class="banya-visuals" data-cursor="Парна і Чан">
+          <img src="/lagodiv/media_inbox/banya/banya-chan-01.png" alt="Гарячий чан на цілющих травах біля дерев'яного містка в Лагодові" />
+          <img src="/lagodiv/media_inbox/banya/banya-parna-panorama.png" alt="Дерев'яна парна на дровах з кам'яною піччю" />
+        </div>
+
+        <div>
+          <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 14px;">Прямий стрибок із пірсу в озеро</div>
+          <h3 class="t-h3" style="font-size: 2.25rem; margin-bottom: 16px;">Аромат дерева, цілющих трав та живого вогню</h3>
+          <p style="color: var(--c-blue-100); margin-bottom: 24px;">
+            Просто біля бані розташований дерев’яний пірс для занурення в прохолодне озеро після гарячої парної. Чан просто неба настоюється на цілющих травах і розрахований на компанію до 5 гостей (мінімальне замовлення — 2 години).
+          </p>
+
+          <!-- Interactive Banya Tariff & Gift Hour Calculator -->
+          <div class="banya-calc">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(191, 217, 238, 0.16); margin-bottom: 20px;">
+              <div>
+                <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Оренда бані на дровах</div>
+                <div class="t-num" style="font-family: var(--font-display); font-size: 2.25rem;">800 ₴ <small style="font-size: 0.9rem;">/ год (мін. 2 год)</small></div>
+              </div>
+              <div>
+                <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Баня + Гарячий чан на травах</div>
+                <div class="t-num" style="font-family: var(--font-display); font-size: 2.25rem;">1 400 ₴ <small style="font-size: 0.9rem;">/ год (до 5 осіб)</small></div>
+              </div>
+            </div>
+
+            <div style="background: rgba(47, 111, 176, 0.22); border-left: 2px solid var(--c-blue-200); padding: 14px 18px; margin-bottom: 20px; font-size: 0.9rem;">
+              <strong>Постійна акція:</strong> Пн–Чт при оренді на 3 години — <strong>4-та година в подарунок!</strong> Пт–Нд при оренді на 4 години — <strong>5-та година в подарунок!</strong><br />
+              <span style="font-size: 0.8125rem; color: var(--c-blue-200);">Додатково: віник — 200 ₴ · ефірні олії — 50 ₴ · шапочка — 50 ₴ · повний комплект — 200 ₴.</span>
+            </div>
+
+            <button class="btn-primary" style="width: 100%;" onclick="openBookingDrawer('Баня на дровах з чаном на травах (мін. 2 години)', 2800)">Забронювати баню та чан →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 07 & 10: RESTAURANT KOLIBA, BANQUET HALL (150) & RED HALL (10% STONE)
+       ===================================================== -->
+  <section id="restoran" class="section-stone">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">05 / Гастрономія та Події</div>
+        <div>
+          <h2 class="t-h2">Ресторан «Колиба», Банкетна зала на 150 гостей та Червоний зал</h2>
+        </div>
+      </div>
+
+      <div class="dining-layout">
+        <div>
+          <img src="/lagodiv/media_inbox/restaurant/restoran-interior-02.jpg" alt="Вечірня алея та дерев'яний зруб ресторану Колиба серед сосен" style="width: 100%; height: 380px; object-fit: cover; margin-bottom: 24px;" />
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <img src="/lagodiv/media_inbox/restaurant/restoran-dish-01.jpg" alt="Авторська подача вареників з вишнею в ресторані Колиба" style="width: 100%; height: 220px; object-fit: cover;" />
+            <img id="zahody" src="/lagodiv/media_inbox/extra/rest-0899.jpg" alt="Святкове сервірування у Червоному залі комплексу Лагодів" style="width: 100%; height: 220px; object-fit: cover;" />
+          </div>
+        </div>
+
+        <div class="menu-board">
+          <div class="t-eyebrow" style="color: var(--c-blue-500); margin-bottom: 12px;">Українська та європейська кухня · Вогонь і традиції</div>
+          <h3 class="t-h3" style="margin-bottom: 16px;">Поживні сніданки, страви з мангалу та урочисті банкети</h3>
+          <p style="color: var(--c-ink-soft); margin-bottom: 24px;">
+            За 17 років ми провели тисячі сімейних свят, весіль та корпоративів. До ваших послуг основна зала «Колиби», <strong>Банкетна зала до 150 осіб</strong>, камерний <strong>Червоний зал</strong>, літня тераса та дитяча ігрова кімната.
+          </p>
+
+          <div style="margin-bottom: 28px;">
+            <div class="menu-item-row">
+              <div>
+                <div class="menu-item-title">Ранкові сніданки в «Колибі»</div>
+                <div class="menu-item-desc">Подаються щодня з 09:00 до 11:00 (включені у вартість проживання в номерах готелю H2O)</div>
+              </div>
+              <span class="t-num" style="font-weight: 600; color: var(--c-navy-900);">09:00–11:00</span>
+            </div>
+            <div class="menu-item-row">
+              <div>
+                <div class="menu-item-title">Страви з відкритого вогню та мангалу</div>
+                <div class="menu-item-desc">Фірмовий шашлик, м’ясо та птиця на вогні, запечена риба, овочі гриль та сет-меню на компанію</div>
+              </div>
+              <span style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--c-moss); font-weight: 600;">ChoiceQR Меню</span>
+            </div>
+            <div class="menu-item-row">
+              <div>
+                <div class="menu-item-title">Банкетна зала (150 місць) та Червоний зал</div>
+                <div class="menu-item-desc">Індивідуальне бенкетне меню для весіль, днів народження, хрестин і тімбілдінгів</div>
+              </div>
+              <span class="t-num" style="font-weight: 600; color: var(--c-navy-900);">до 150 осіб</span>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 16px;">
+            <button class="btn-primary" onclick="openBookingDrawer('Запит на банкет / подію (Банкетна зала або Червоний зал)', 0)">Розрахувати банкет / захід</button>
+            <a href="tel:+380960307888" class="btn-outline">Ресторан: +380 96 030 78 88</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 08 & 09: ACTIVE LEISURE RAIL & DAWN FISHING
+       ===================================================== -->
+  <section id="rozvagy" class="rail-section">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">06 / Активний відпочинок та Риболовля</div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px;">
+          <div>
+            <h2 class="t-h2">Драйв у сосновому лісі та тиша рибацьких пірсів</h2>
+          </div>
+          <a href="tel:+380960307887" class="btn-outline">Адміністратор активностей: +380 96 030 78 87</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="rail-track" data-cursor="Тягнути ↔">
+      <!-- Card 1: ATVs -->
+      <article class="rail-card">
+        <div class="rail-card__img">
+          <img src="/lagodiv/media_inbox/extra/kvadro-banner.jpeg" alt="Прогулянки на квадроциклах лісовими маршрутами Лагодова" />
+        </div>
+        <div class="rail-card__body">
+          <div>
+            <div class="t-eyebrow" style="color: var(--c-blue-500); margin-bottom: 8px;">01 / Лісовий офроуд (18+)</div>
+            <h3 class="t-h3" style="margin-bottom: 10px;">Оренда квадроциклів</h3>
+            <p style="font-size: 0.925rem; color: var(--c-ink-soft); margin-bottom: 16px;">
+              Маршрути сосновим лісом із інструктажем та захисними шоломами. При бронюванні 4 квадроциклів — <strong>знижка 10%</strong>.
+            </p>
+          </div>
+          <div style="border-top: 1px solid var(--c-stone); padding-top: 16px; display: flex; justify-content: space-between; align-items: center;">
+            <span class="t-num" style="font-weight: 600;">1 шт: 2 500 ₴/год · 2 шт: 4 000 ₴/год</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2: Multi-sport Tennis Court -->
+      <article class="rail-card">
+        <div class="rail-card__img">
+          <img src="/lagodiv/media_inbox/entertainment/sports-court-01.jpg" alt="Тенісний та мультиспортивний корт біля озера Лагодів" />
+        </div>
+        <div class="rail-card__body">
+          <div>
+            <div class="t-eyebrow" style="color: var(--c-blue-500); margin-bottom: 8px;">02 / Теніс · Футбол · Волейбол</div>
+            <h3 class="t-h3" style="margin-bottom: 10px;">Спортивний та тенісний корт</h3>
+            <p style="font-size: 0.925rem; color: var(--c-ink-soft); margin-bottom: 16px;">
+              У вартість входять 2 ракетки та 4 тенісні м’ячі (додатковий інвентар — 100 ₴). Ранковий, денний та вечірній тарифи з освітленням.
+            </p>
+          </div>
+          <div style="border-top: 1px solid var(--c-stone); padding-top: 16px;">
+            <span class="t-num" style="font-weight: 600; font-size: 0.875rem;">09–13: 400 ₴ · 13–21: 600 ₴ · 21–00: 700 ₴/год</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3: Fishing -->
+      <article id="rybolovlya" class="rail-card">
+        <div class="rail-card__img">
+          <img src="/lagodiv/media_inbox/hero/rybolovlya-hero.jpg" alt="Ранкова риболовля на озері Лагодів" />
+        </div>
+        <div class="rail-card__body">
+          <div>
+            <div class="t-eyebrow" style="color: var(--c-moss); margin-bottom: 8px;">03 / 5 видів риби в озері</div>
+            <h3 class="t-h3" style="margin-bottom: 10px;">Риболовля на дерев’яних пірсах</h3>
+            <p style="font-size: 0.925rem; color: var(--c-ink-soft); margin-bottom: 16px;">
+              В озері водяться <strong>короп, карась, білий амур, щука та срібна плотва</strong>. Обладнані рибацькі пірси для денної та добової ловлі.
+            </p>
+          </div>
+          <div style="border-top: 1px solid var(--c-stone); padding-top: 16px;">
+            <span class="t-num" style="font-weight: 600;">День: 700 ₴ · Ніч: 1 000 ₴ · Доба: 1 200 ₴</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4: Gazebos & Lake Piers -->
+      <article class="rail-card">
+        <div class="rail-card__img">
+          <img src="/lagodiv/media_inbox/extra/rest-8100.jpg" alt="Оренда альтанок із видом на сосновий ліс та озеро" />
+        </div>
+        <div class="rail-card__body">
+          <div>
+            <div class="t-eyebrow" style="color: var(--c-blue-500); margin-bottom: 8px;">04 / Приватність біля води</div>
+            <h3 class="t-h3" style="margin-bottom: 10px;">Альтанки, Каяки, САПи та Катамарани</h3>
+            <p style="font-size: 0.925rem; color: var(--c-ink-soft); margin-bottom: 16px;">
+              Оренда затишних альтанок на цілий день із ресторанним обслуговуванням, водні прогулянки на SUP-дошках і каяках та канатне містечко.
+            </p>
+          </div>
+          <div style="border-top: 1px solid var(--c-stone); padding-top: 16px;">
+            <span style="font-weight: 600; font-size: 0.875rem;">Бронювання: +380 96 337 28 88</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 11: CURATED MASONRY GALLERY + 3D TOUR FACADE
+       ===================================================== -->
+  <section id="halereya" class="section-white">
+    <div class="container">
+      <div class="chapter-head">
+        <div class="chapter-index">07 / Візуальний архів</div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px;">
+          <div>
+            <h2 class="t-h2">Галерея комплексу та 3D-панорама 360°</h2>
+          </div>
+          <span style="font-size: 0.8125rem; color: var(--c-ink-soft);">Натисніть на будь-який кадр для повноекранного перегляду (Lightbox)</span>
+        </div>
+      </div>
+
+      <div class="gallery-masonry">
+        <div class="gallery-cell g-span-7" data-cursor="Збільшити" onclick="openLightbox('/lagodiv/media_inbox/extra/landscape-01.png', 'Панорама озера Лагодів та дерев’яних пірсів на заході сонця')">
+          <img src="/lagodiv/media_inbox/extra/landscape-01.png" alt="Панорама озера Лагодів на заході сонця" />
+        </div>
+        <div class="gallery-cell g-span-5" data-cursor="Збільшити" onclick="openLightbox('/lagodiv/media_inbox/pool_spa/pool-main-03.jpg', 'Вечірнє підсвічування відкритого басейну H2O')">
+          <img src="/lagodiv/media_inbox/pool_spa/pool-main-03.jpg" alt="Вечірній басейн H2O" />
+        </div>
+        <div class="gallery-cell g-span-4" data-cursor="Збільшити" onclick="openLightbox('/lagodiv/media_inbox/extra/grounds-3380.jpg', 'Відкрите джакузі на терасі з видом на озеро Лагодів')">
+          <img src="/lagodiv/media_inbox/extra/grounds-3380.jpg" alt="Джакузі з видом на озеро" />
+        </div>
+        <div class="gallery-cell g-span-4" data-cursor="Збільшити" onclick="openLightbox('/lagodiv/media_inbox/restaurant/restoran-interior-01.jpg', 'Архітектура комплексу Колиба серед соснового лісу')">
+          <img src="/lagodiv/media_inbox/restaurant/restoran-interior-01.jpg" alt="Вечірній вигляд ресторану Колиба" />
+        </div>
+        <div class="gallery-cell g-span-4" data-cursor="Збільшити" onclick="openLightbox('/lagodiv/media_inbox/extra/rest-2061.jpg', 'Святкове сервірування у Банкетній залі на 150 гостей')">
+          <img src="/lagodiv/media_inbox/extra/rest-2061.jpg" alt="Банкетна зала на 150 осіб" />
+        </div>
+      </div>
+
+      <!-- Click-to-Load 3D Tour Facade -->
+      <div id="tur-3d" style="margin-top: 48px; background: var(--c-navy-950); color: var(--c-white); padding: 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; border-radius: 2px;">
+        <div>
+          <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 8px;">Віртуальна прогулянка 360° (Lazy Iframe Facade)</div>
+          <h3 class="t-h3">Інтерактивний 3D-тур територією озерного комплексу «Лагодів»</h3>
+          <p style="color: var(--c-blue-100); font-size: 0.925rem; margin-top: 6px;">Завантажується лише після кліку для збереження миттєвої швидкодії сторінки (LCP &lt; 2.0s).</p>
+        </div>
+        <a href="https://tourmkr.com/F1iQWlZ0pq" target="_blank" rel="noopener" class="btn-primary">Запустити 3D-тур 360° ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       SECTION 13–15: CONTACTS, ROUTE & ARCHITECTURAL FOOTER
+       ===================================================== -->
+  <footer id="kontakty" class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 16px;">Озерний комплекс «Лагодів»</div>
+        <h2 style="font-family: var(--font-display); font-size: 2.6rem; font-weight: 300; line-height: 1.1; margin-bottom: 20px;">
+          Озеро за вікном.<br /><em>Сніданок уже чекає.</em>
+        </h2>
+        <p style="color: var(--c-blue-200); font-size: 0.925rem; margin-bottom: 24px;">
+          Львівська область, Золочівський район, село Лагодів, вул. Довга, 5.<br />
+          GPS: <span class="t-num">50.1034527, 25.1048928</span>
+        </p>
+        <a href="https://maps.app.goo.gl/vfMnhE83LYdnxziJ6" target="_blank" rel="noopener" class="btn-primary">Побудувати маршрут у Google Maps ↗</a>
+      </div>
+
+      <div>
+        <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 16px;">Прямі лінії департаментів</div>
+        <ul style="display: flex; flex-direction: column; gap: 14px; font-size: 0.95rem;">
+          <li>
+            <span style="display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Рецепція та Проживання</span>
+            <a href="tel:+380963372888" class="t-num" style="font-size: 1.2rem; font-weight: 500;">+380 (96) 337 28 88</a>
+          </li>
+          <li>
+            <span style="display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Басейн та SPA «H2O»</span>
+            <a href="tel:+380966882577" class="t-num" style="font-size: 1.2rem; font-weight: 500;">+380 (96) 688 25 77</a>
+          </li>
+          <li>
+            <span style="display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Ресторан «Колиба» та Банкети</span>
+            <a href="tel:+380960307888" class="t-num" style="font-size: 1.2rem; font-weight: 500;">+380 (96) 030 78 88</a>
+          </li>
+          <li>
+            <span style="display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-blue-200);">Корт та Квадроцикли</span>
+            <a href="tel:+380960307887" class="t-num" style="font-size: 1.2rem; font-weight: 500;">+380 (96) 030 78 87</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 16px;">Розділи комплексу</div>
+        <ul style="display: flex; flex-direction: column; gap: 10px; font-size: 0.9rem; color: var(--c-blue-100);">
+          <li><a href="#prozhyvannya">Готель «H2O» та Котедж з пірсом</a></li>
+          <li><a href="#prozhyvannya">Готель «Колиба» (6 категорій)</a></li>
+          <li><a href="#basejn-spa">Басейни з підігрівом та SPA</a></li>
+          <li><a href="#banya-chan">Баня на дровах та Чан на травах</a></li>
+          <li><a href="#restoran">Ресторан «Колиба» та Меню</a></li>
+          <li><a href="#zahody">Банкетна зала (150 осіб) і Червоний зал</a></li>
+          <li><a href="#rozvagy">Квадроцикли, Тенісний корт, САПи</a></li>
+          <li><a href="#rybolovlya">Риболовля на озері</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="t-eyebrow" style="color: var(--c-blue-200); margin-bottom: 16px;">Соцмережі</div>
+        <ul style="display: flex; flex-direction: column; gap: 12px; font-size: 0.9rem;">
+          <li><a href="https://www.instagram.com/lagodiv_lake_complex/" target="_blank" rel="noopener">Instagram ↗</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100035363020770" target="_blank" rel="noopener">Facebook ↗</a></li>
+          <li><a href="https://restoran-koliba.choiceqr.com" target="_blank" rel="noopener">ChoiceQR Меню ↗</a></li>
+          <li><a href="https://tourmkr.com/F1iQWlZ0pq" target="_blank" rel="noopener">3D-тур 360° ↗</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-giant">ЛАГОДІВ</div>
+  </footer>
+
+  <!-- =====================================================
+       SLIDE-OUT INTERACTIVE BOOKING DRAWER
+       ===================================================== -->
+  <div id="bookingBackdrop" class="booking-drawer-backdrop" onclick="closeBookingDrawer()"></div>
+  <aside id="bookingDrawer" class="booking-drawer" aria-label="Заявка на бронювання">
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--c-stone); margin-bottom: 24px;">
+        <div>
+          <div class="t-eyebrow" style="color: var(--c-blue-500);">Бронювання без комісії</div>
+          <h3 class="t-h3">Заявка на перевірку доступності</h3>
+        </div>
+        <button onclick="closeBookingDrawer()" style="font-size: 1.4rem; cursor: pointer; padding: 4px 10px;">✕</button>
+      </div>
+
+      <form onsubmit="event.preventDefault(); submitBookingDemo();">
+        <div class="form-group">
+          <label class="form-label" for="bkRoom">Обрана категорія / послуга</label>
+          <input id="bkRoom" class="form-control" type="text" value="Готель H2O — Стандарт з видом на озеро" readonly />
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+          <div class="form-group">
+            <label class="form-label" for="bkIn">Дата заїзду</label>
+            <input id="bkIn" class="form-control t-num" type="date" value="2026-11-20" onchange="recalcBooking()" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="bkOut">Дата виїзду</label>
+            <input id="bkOut" class="form-control t-num" type="date" value="2026-11-22" onchange="recalcBooking()" />
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+          <div class="form-group">
+            <label class="form-label" for="bkAdults">Дорослі</label>
+            <select id="bkAdults" class="form-control">
+              <option value="2">2 дорослих</option>
+              <option value="1">1 дорослий</option>
+              <option value="3">3 дорослих</option>
+              <option value="4">4 дорослих</option>
+              <option value="10">Компанія (Котедж до 14 ос.)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="bkChildren">Діти</label>
+            <select id="bkChildren" class="form-control">
+              <option value="0">Без дітей</option>
+              <option value="1">1 дитина (до 5 р. безкоштовно)</option>
+              <option value="2">2 дітей</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="bkName">Ваше ім’я</label>
+          <input id="bkName" class="form-control" type="text" placeholder="Олександр Ковальчук" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="bkPhone">Контактний телефон</label>
+          <input id="bkPhone" class="form-control t-num" type="tel" placeholder="+380 (96) 000 00 00" required />
+        </div>
+
+        <div style="background: var(--c-mist); border: 1px solid var(--c-stone); padding: 16px 20px; margin: 20px 0;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <span style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--c-ink-soft);">Орієнтовна вартість (<span id="bkNights">2</span> доби):</span>
+            <span id="bkTotal" class="t-num" style="font-family: var(--font-display); font-size: 2rem; font-weight: 500; color: var(--c-navy-950);">7 800 ₴</span>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--c-ink-soft); margin-top: 4px;">Онлайн-оплата не потрібна. Менеджер рецепції підтвердить бронювання телефоном.</div>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%; padding: 16px;">Надіслати заявку менеджеру →</button>
+        <div id="bkSuccess" style="display: none; margin-top: 14px; padding: 12px; background: var(--c-success); color: var(--c-white); font-size: 0.875rem; text-align: center;">
+          Заявку LGD-2026-841 прийнято! Менеджер рецепції зв’яжеться з вами найближчим часом.
+        </div>
+      </form>
+    </div>
+  </aside>
+
+  <!-- =====================================================
+       FULLSCREEN LIGHTBOX
+       ===================================================== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <span class="t-eyebrow" style="color: var(--c-blue-200);">Озерний комплекс «Лагодів» · Фотоархів</span>
+      <button style="font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.25); padding: 8px 16px; cursor: pointer;">Закрити ✕</button>
+    </div>
+    <div class="lightbox__stage">
+      <img id="lightboxImg" src="/lagodiv/media_inbox/extra/landscape-01.png" alt="Повноекранне фото" />
+    </div>
+    <div id="lightboxCaption" style="text-align: center; font-family: var(--font-display); font-size: 1.5rem; color: var(--c-blue-100);"></div>
+  </div>
+
+  <!-- =====================================================
+       DISCREET FLOATING ART DIRECTION STUDIO DOCK
+       ===================================================== -->
+  <div class="studio-dock" role="region" aria-label="Перемикач концепцій Art Direction">
+    <div class="studio-dock__header">
+      <span>Art Direction Studio · Живий вибір концепції</span>
+      <span style="color: var(--c-white); font-weight: 600;">GATE 1</span>
+    </div>
+    <div class="studio-dock__pills">
+      <button class="studio-pill" onclick="selectHeroConcept(1, this)">Hero I: Озеро &amp; Вечір</button>
+      <button class="studio-pill" onclick="selectHeroConcept(2, this)">Hero II: Портал FORESTIS</button>
+      <button class="studio-pill is-active" onclick="selectHeroConcept(3, this)">Hero III: Диптих H2O/Колиба ✓</button>
+      <button class="studio-pill is-active" onclick="toggleNavStyle(this)">Шапка: Floating (V2) ✓</button>
+    </div>
+  </div>
+
+  <!-- Mobile Sticky Bottom CTA Bar -->
+  <div class="mobile-bottom-bar" aria-label="Швидкі дії на мобільному">
+    <a href="tel:+380963372888" style="background: var(--c-navy-900); border-right: 1px solid rgba(191,217,238,0.2);">Подзвонити</a>
+    <button style="background: var(--c-blue-500);" onclick="openBookingDrawer('Готель H2O — Стандарт з видом на озеро', 3900)">Забронювати</button>
+  </div>
+
+  <script>
+    // 1. Preloader Entrance Choreography (<= 1.6s)
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        const pre = document.getElementById('preloader');
+        if (pre) pre.classList.add('is-done');
+      }, 450);
+    });
+
+    // 2. Header Scroll State
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('siteHeader');
+      if (window.scrollY > 48) {
+        header.classList.add('is-scrolled');
+      } else {
+        header.classList.remove('is-scrolled');
+      }
+    }, { passive: true });
+
+    // 3. Custom Magnetic Cursor Follower (Desktop Only)
+    const cursor = document.getElementById('cursorFollower');
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && cursor) {
+      window.addEventListener('pointermove', (e) => {
+        cursor.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0) translate(-50%, -50%)`;
+      }, { passive: true });
+
+      document.querySelectorAll('[data-cursor]').forEach((el) => {
+        el.addEventListener('mouseenter', () => {
+          cursor.classList.add('is-expanded');
+          cursor.textContent = el.getAttribute('data-cursor');
+        });
+        el.addEventListener('mouseleave', () => {
+          cursor.classList.remove('is-expanded');
+          cursor.textContent = '';
+        });
+      });
+    }
+
+    // 4. Switch Hero Concepts Live
+    function selectHeroConcept(num, btn) {
+      document.querySelectorAll('.hero-scene').forEach(s => s.classList.remove('is-active'));
+      const target = document.getElementById('heroScene' + num);
+      if (target) target.classList.add('is-active');
+
+      const header = document.getElementById('siteHeader');
+      if (num === 2) {
+        header.classList.add('site-header--light');
+      } else {
+        header.classList.remove('site-header--light');
+      }
+
+      const pills = btn.parentElement.querySelectorAll('.studio-pill');
+      [0, 1, 2].forEach(i => pills[i] && pills[i].classList.remove('is-active'));
+      btn.classList.add('is-active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // 5. Switch Hero 1 Day/Night Atmosphere
+    function setHeroMood(mode, btn) {
+      const dayImg = document.getElementById('heroC1Day');
+      const nightImg = document.getElementById('heroC1Night');
+      if (mode === 'night') {
+        dayImg.classList.add('is-hidden');
+        nightImg.classList.remove('is-hidden');
+      } else {
+        nightImg.classList.add('is-hidden');
+        dayImg.classList.remove('is-hidden');
+      }
+      btn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+    }
+
+    // 6. Toggle Header Style (Architectural Hairline vs Floating Frame)
+    let currentNavStyle = 1;
+    function toggleNavStyle(btn) {
+      const header = document.getElementById('siteHeader');
+      currentNavStyle = currentNavStyle === 1 ? 2 : 1;
+      header.classList.remove('site-header--v1', 'site-header--v2');
+      header.classList.add('site-header--v' + currentNavStyle);
+      btn.textContent = currentNavStyle === 1 ? 'Шапка: Hairline (V1)' : 'Шапка: Floating (V2)';
+    }
+
+    // 7. Fullscreen Concierge Menu
+    function toggleConciergeMenu(open) {
+      const menu = document.getElementById('conciergeMenu');
+      if (open) {
+        menu.classList.add('is-open');
+      } else {
+        menu.classList.remove('is-open');
+      }
+    }
+
+    function swapMenuPreview(src, caption) {
+      const img = document.getElementById('menuPreviewImg');
+      const cap = document.getElementById('menuPreviewCaption');
+      if (img) img.src = src;
+      if (cap) cap.textContent = caption;
+    }
+
+    // 8. Accommodation Tabs (H2O vs Koliba)
+    function switchHotelTab(key, btn) {
+      document.querySelectorAll('.hotel-panel').forEach(p => p.classList.remove('is-active'));
+      const panel = document.getElementById('panel-' + key);
+      if (panel) panel.classList.add('is-active');
+      btn.parentElement.querySelectorAll('.hotel-tab').forEach(t => t.classList.remove('is-active'));
+      btn.classList.add('is-active');
+    }
+
+    // 9. Interactive Booking Drawer & Live Estimate Calculator
+    let currentBaseRate = 3900;
+    function openBookingDrawer(roomTitle, rate) {
+      currentBaseRate = rate || 3900;
+      document.getElementById('bkRoom').value = roomTitle;
+      document.getElementById('bkSuccess').style.display = 'none';
+      recalcBooking();
+      document.getElementById('bookingBackdrop').classList.add('is-open');
+      document.getElementById('bookingDrawer').classList.add('is-open');
+    }
+
+    function closeBookingDrawer() {
+      document.getElementById('bookingBackdrop').classList.remove('is-open');
+      document.getElementById('bookingDrawer').classList.remove('is-open');
+    }
+
+    function recalcBooking() {
+      const d1 = new Date(document.getElementById('bkIn').value);
+      const d2 = new Date(document.getElementById('bkOut').value);
+      let nights = Math.round((d2 - d1) / (1000 * 60 * 60 * 24));
+      if (isNaN(nights) || nights < 1) nights = 1;
+      document.getElementById('bkNights').textContent = nights;
+      if (currentBaseRate > 0) {
+        const total = nights * currentBaseRate;
+        document.getElementById('bkTotal').textContent = total.toLocaleString('uk-UA') + ' ₴';
+      } else {
+        document.getElementById('bkTotal').textContent = 'Індивідуальний розрахунок';
+      }
+    }
+
+    function submitBookingDemo() {
+      document.getElementById('bkSuccess').style.display = 'block';
+    }
+
+    // 10. Fullscreen Lightbox
+    function openLightbox(src, caption) {
+      document.getElementById('lightboxImg').src = src;
+      document.getElementById('lightboxCaption').textContent = caption || '';
+      document.getElementById('lightbox').classList.add('is-open');
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('is-open');
+    }
+  </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('form[method="post"]').forEach((form) => {
+      form.addEventListener('submit', (e) => {
+        if (window.location.hostname.endsWith('github.io')) {
+          e.preventDefault();
+          const code = 'LGD-2026-' + Math.floor(1000 + Math.random() * 9000);
+          window.location.href = '/lagodiv/bronyuvannya/dyakuyemo/?code=' + code;
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>

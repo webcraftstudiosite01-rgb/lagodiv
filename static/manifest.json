@@ -1,0 +1,14 @@
+{
+  "css/main.css": {
+    "file": "css/bundle.d5c2386fc2.css",
+    "src": "css/main.css",
+    "isEntry": true,
+    "gzip_kb": 7.43
+  },
+  "js/main.js": {
+    "file": "js/bundle.9f569f07ab.js",
+    "src": "js/main.js",
+    "isEntry": true,
+    "gzip_kb": 2.97
+  }
+}
